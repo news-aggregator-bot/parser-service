@@ -1,0 +1,17 @@
+{
+  "url": "https://localhost:8080/lowcost_news",
+  "url_normalisation": "ASIS",
+  "content_blocks": [
+    {
+      "sourcePage": null,
+      "tags": [
+        {
+          "type": "AUTHOR",
+          "value": "val",
+          "match_strategy": "EQUALS"
+        }
+      ],
+      "typeMap": null
+    }
+  ]
+}
