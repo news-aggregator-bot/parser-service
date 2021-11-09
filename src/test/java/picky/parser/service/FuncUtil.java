@@ -1,5 +1,6 @@
 package picky.parser.service;
 
+
 public class FuncUtil {
 
     private FuncUtil() {}
@@ -14,3 +15,4 @@ public class FuncUtil {
             ).toString();
     }
 }
+

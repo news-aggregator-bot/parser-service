@@ -59,15 +59,18 @@ public class ParsedNewsApprover {
                 for (String sourcePageName : sourcePages) {
                     byte[] sourcePageContent = sourcePageContext.get(sourceName, sourcePageName);
                     byte[] webPageContent = webPageContext.get(sourceName, sourcePageName);
-                    SourcePage sourcePage = om.read(sourcePageContent, SourcePage.class);
 
-                    wireMockServer.stub(sourcePage.getUrl(), webPageContent);
+                    SourcePage sourcePage = om.read(sourcePageContent, SourcePage.class);
+                    sourcePage.setUrl(wireMockServer.replaceHost(sourcePage.getUrl()));
+
+                    String path = wireMockServer.getPath(sourcePage.getUrl());
+                    wireMockServer.stub(path, webPageContent);
                     ParsedNews parsedNews = parser.parse(sourcePage);
-                    if (parsedNews.getArticles().size() <= 1) {
-                        throw new IllegalStateException("Single note on the whole page? " + sourcePage
-                            .getUrl());
-                    }
-                    wireMockServer.stubVerify(sourcePage.getUrl());
+//                    if (parsedNews.getArticles().size() == 0) {
+//                        throw new IllegalStateException("Single note on the whole page? " + sourcePage
+//                            .getUrl());
+//                    }
+                    wireMockServer.stubVerify(path);
 
                     newsContext.approve(
                         sourceName,
@@ -75,7 +78,7 @@ public class ParsedNewsApprover {
                         om.writeString(parsedNews)
                     );
 
-                    log.info("approve:sourcepage:finish:{}", sourcePage.getUrl());
+                    log.info("parsed news approve completed {} {}", parsedNews.getArticles().size(), sourcePage.getUrl());
                 }
             }
         } finally {

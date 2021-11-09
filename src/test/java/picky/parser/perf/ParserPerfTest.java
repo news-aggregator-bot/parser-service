@@ -39,7 +39,7 @@ public class ParserPerfTest implements NatsContainerSupport {
     private final UtilObjectMapper om = new UtilObjectMapper();
 
     @Test
-    public void test() throws InterruptedException {
+    public void perfTest() throws InterruptedException {
         String sourceName = "укрправда";
         Set<SourcePage> sourcePages = sourcePageContext.getValueKeys(sourceName)
             .stream()

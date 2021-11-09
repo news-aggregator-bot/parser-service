@@ -2,6 +2,7 @@ package picky.parser.reader;
 
 import com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController;
 import com.gargoylesoftware.htmlunit.WebClient;
+import com.gargoylesoftware.htmlunit.WebRequest;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.javascript.SilentJavaScriptErrorListener;
 import lombok.extern.slf4j.Slf4j;
@@ -13,6 +14,8 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PreDestroy;
 import java.io.IOException;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 
 @Slf4j
 @Component
@@ -46,7 +49,10 @@ public class HtmlUnitWebPageReader implements WebPageReader {
         try {
             HtmlPage page;
             synchronized (this) {
-                 page = client.getPage(path);
+                WebRequest wr = new WebRequest(new URL(path));
+                wr.setCharset(StandardCharsets.UTF_8);
+                wr.setTimeout(timeout * 1000);
+                page = client.getPage(wr);
             }
             return Parser.parse(page.asXml(), path);
         } catch (IOException e) {

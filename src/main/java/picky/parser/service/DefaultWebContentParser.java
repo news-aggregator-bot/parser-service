@@ -72,23 +72,43 @@ public class DefaultWebContentParser implements WebContentParser {
         return new ParsedNews(Collections.emptySet(), page.getUrl(), null);
     }
 
+    public String successfulRead(SourcePage page) {
+        for (WebPageReader webPageReader : webPageReaders) {
+            Document doc = readDocument(page, webPageReader).orElse(null);
+            if (doc != null) {
+                ParsedNews rawNewsNotes = parse(page, webPageReader, doc);
+                if (rawNewsNotes != null) {
+                    return doc.html();
+                }
+            }
+        }
+        return null;
+    }
+
     private ParsedNews getRawNews(SourcePage page, WebPageReader webPageReader) {
         log.info(
             "webpageparser:{} :{}",
             page.getUrl(),
             webPageReader.getClass().getSimpleName()
         );
-        Optional<Document> doc = readDocument(page, webPageReader);
-        if (doc.isPresent()) {
-            Set<ParsedNewsArticle> rawNewsNotes = page.getContentBlocks()
-                .stream()
-                .map(block -> parseDoc(page, doc.get(), block))
-                .flatMap(List::stream)
-                .filter(Objects::nonNull)
-                .collect(Collectors.toSet());
-            if (rawNewsNotes.size() > 1) {
-                return new ParsedNews(rawNewsNotes, page.getUrl(), webPageReader.name());
-            }
+        return readDocument(page, webPageReader)
+            .map(doc -> parse(page, webPageReader, doc))
+            .orElse(null);
+    }
+
+    private ParsedNews parse(
+        SourcePage page,
+        WebPageReader webPageReader,
+        Document doc
+    ) {
+        Set<ParsedNewsArticle> rawNewsNotes = page.getContentBlocks()
+            .stream()
+            .map(block -> parseDoc(page, doc, block))
+            .flatMap(List::stream)
+            .filter(Objects::nonNull)
+            .collect(Collectors.toSet());
+        if (rawNewsNotes.size() > 1) {
+            return new ParsedNews(rawNewsNotes, page.getUrl(), webPageReader.name());
         }
         return null;
     }

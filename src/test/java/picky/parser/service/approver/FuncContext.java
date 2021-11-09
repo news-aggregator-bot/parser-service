@@ -19,12 +19,11 @@ import static picky.parser.service.FuncUtil.normalizeName;
 public class FuncContext {
 
     private final ContextType type;
-    private final Map<String, Map<String, Path>> pages;
-    private final ClassLoader classLoader = FuncContext.class.getClassLoader();
+    private final Map<String, Map<String, Path>> data;
 
     public FuncContext(ContextType type) {
         ImmutableMap.Builder<String, Map<String, Path>> s = ImmutableMap.builder();
-        URL funcDir = classLoader.getResource(type.path);
+        URL funcDir = this.getClass().getClassLoader().getResource(type.path);
         if (funcDir != null) {
             File pageDirFilePath = Paths.get(funcDir.getPath()).toFile();
             for (File sourceDir : pageDirFilePath.listFiles()) {
@@ -38,26 +37,26 @@ public class FuncContext {
                 s.put(sourceDir.getName(), p.build());
             }
         }
-        pages = s.build();
+        data = s.build();
         this.type = type;
     }
 
     public Set<String> getKeys() {
-        return pages.keySet();
+        return data.keySet();
     }
 
     public Set<String> getValueKeys(String sourceName) {
-        return pages.get(sourceName).keySet();
+        return data.get(sourceName).keySet();
     }
 
     public byte[] get(String sourceName, String sourcePageName) {
         try {
             sourceName = normalizeName(sourceName);
-            if (!pages.containsKey(sourceName)) {
+            if (!data.containsKey(sourceName)) {
                 throw new IllegalArgumentException("source:notfound:" + sourceName);
             }
             sourcePageName = normalizeName(sourcePageName);
-            Path path = pages.get(sourceName).get(sourcePageName);
+            Path path = data.get(sourceName).get(sourcePageName);
             if (path == null) {
                 return new byte[0];
             }
