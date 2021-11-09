@@ -44,7 +44,10 @@ public class HtmlUnitWebPageReader implements WebPageReader {
     public Document read(String path) {
 
         try {
-            HtmlPage page = client.getPage(path);
+            HtmlPage page;
+            synchronized (this) {
+                 page = client.getPage(path);
+            }
             return Parser.parse(page.asXml(), path);
         } catch (IOException e) {
             throw new IllegalArgumentException(e);

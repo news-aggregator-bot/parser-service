@@ -1,11 +1,12 @@
 package picky.parser.service.mismatch;
 
-import bepicky.service.entity.NewsNote;
+
+import picky.parser.dto.ParsedNewsArticle;
 
 public class AuthorValueAnalyser implements ValueAnalyzer {
 
     @Override
-    public String analyse(NewsNote expected, NewsNote actual) {
+    public String analyse(ParsedNewsArticle expected, ParsedNewsArticle actual) {
         if (expected.getAuthor() != null && actual.getAuthor() != null) {
             return expected.getAuthor().equals(actual.getAuthor()) ?
                 null :

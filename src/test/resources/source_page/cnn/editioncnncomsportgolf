@@ -1,0 +1,1 @@
+{"url":"https://edition.cnn.com/sport/golf","url_normalisation":"ASIS","content_blocks":[{"sourcePage":null,"tags":[{"type":"TITLE","value":"cd__headline-text","match_strategy":"STARTS"},{"type":"MAIN","value":"cd__content","match_strategy":"EQUALS"},{"type":"LINK","value":"a","match_strategy":"HTML_TAG"}],"typeMap":null}]}

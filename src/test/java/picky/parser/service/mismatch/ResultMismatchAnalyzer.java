@@ -1,7 +1,8 @@
 package picky.parser.service.mismatch;
 
-import bepicky.service.entity.NewsNote;
 import com.google.common.collect.ImmutableList;
+import picky.parser.dto.ParsedNews;
+import picky.parser.dto.ParsedNewsArticle;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -22,16 +23,18 @@ public class ResultMismatchAnalyzer {
             .add(new AuthorValueAnalyser())
             .build();
 
-    public List<Mismatch> analyse(Set<NewsNote> expected, Set<NewsNote> actual) {
+    public List<Mismatch> analyse(ParsedNews expectedNews, ParsedNews actualNews) {
+        Set<ParsedNewsArticle> expected = expectedNews.getArticles();
+        Set<ParsedNewsArticle> actual = actualNews.getArticles();
         if (expected.size() != actual.size()) {
             if (expected.size() > actual.size()) {
-                Set<NewsNote> expectedCopy = new HashSet<>(expected);
+                Set<ParsedNewsArticle> expectedCopy = new HashSet<>(expected);
                 expectedCopy.removeAll(actual);
                 return expectedCopy.stream()
                     .map(n -> Mismatch.builder().expected(n).messages(Arrays.asList("actual is not exist")).build())
                     .collect(Collectors.toList());
             }
-            Set<NewsNote> actualCopy = new HashSet<>(actual);
+            Set<ParsedNewsArticle> actualCopy = new HashSet<>(actual);
             actualCopy.removeAll(expected);
             return actualCopy.stream()
                 .map(n -> Mismatch.builder().actual(n).messages(Arrays.asList("expected is not exist")).build())
@@ -41,10 +44,10 @@ public class ResultMismatchAnalyzer {
             return Collections.emptyList();
         }
 
-        Map<String, NewsNote> expectedMap = expected.stream()
-            .collect(Collectors.toMap(NewsNote::getUrl, Function.identity()));
-        Map<String, NewsNote> actualMap = actual.stream()
-            .collect(Collectors.toMap(NewsNote::getUrl, Function.identity()));
+        Map<String, ParsedNewsArticle> expectedMap = expected.stream()
+            .collect(Collectors.toMap(ParsedNewsArticle::getLink, Function.identity()));
+        Map<String, ParsedNewsArticle> actualMap = actual.stream()
+            .collect(Collectors.toMap(ParsedNewsArticle::getLink, Function.identity()));
 
         return expectedMap.entrySet()
             .stream()
@@ -53,7 +56,7 @@ public class ResultMismatchAnalyzer {
             .collect(Collectors.toList());
     }
 
-    private Mismatch compare(NewsNote expectedNote, NewsNote actualNote) {
+    private Mismatch compare(ParsedNewsArticle expectedNote, ParsedNewsArticle actualNote) {
         List<String> mismatchMessages = findMismatches(expectedNote, actualNote);
         if (mismatchMessages.isEmpty()) {
             return null;
@@ -65,7 +68,7 @@ public class ResultMismatchAnalyzer {
             .build();
     }
 
-    private List<String> findMismatches(NewsNote expectedNote, NewsNote actualNote) {
+    private List<String> findMismatches(ParsedNewsArticle expectedNote, ParsedNewsArticle actualNote) {
         if (actualNote == null) {
             return Arrays.asList("no actual note");
         }

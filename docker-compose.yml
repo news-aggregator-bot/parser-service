@@ -6,7 +6,7 @@ services:
       - SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE}
     healthcheck:
       test: [ "CMD", "curl", "-f", "http://localhost:9055/actuator/health" ]
-      interval: 60s
+      interval: 30s
       timeout: 5s
       retries: 3
     ports:

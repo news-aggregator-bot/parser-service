@@ -1,0 +1,1 @@
+{"url":"https://www.cnbc.com/energy/","url_normalisation":"ASIS","content_blocks":[{"sourcePage":null,"tags":[{"type":"TITLE","value":"div","match_strategy":"HTML_TAG"},{"type":"MAIN","value":"Card-titleContainer","match_strategy":"EQUALS"},{"type":"LINK","value":"a","match_strategy":"HTML_TAG"}],"typeMap":null}]}

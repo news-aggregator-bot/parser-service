@@ -1,12 +1,13 @@
 package picky.parser.service.mismatch;
 
-import bepicky.service.entity.NewsNote;
+
+import picky.parser.dto.ParsedNewsArticle;
 
 public class TitleValueAnalyser implements ValueAnalyzer {
 
     @Override
     public String analyse(
-        NewsNote expected, NewsNote actual
+        ParsedNewsArticle expected, ParsedNewsArticle actual
     ) {
         return expected.getTitle().equals(actual.getTitle()) ?
             null :

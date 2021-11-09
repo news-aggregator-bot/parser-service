@@ -1,12 +1,13 @@
 package picky.parser.service.mismatch;
 
-import bepicky.service.entity.NewsNote;
+
+import picky.parser.dto.ParsedNewsArticle;
 
 public interface ValueAnalyzer {
 
     String MISMATCH_PATTERN = "%s:expected: %s is different from actual: %s";
 
-    String analyse(NewsNote expected, NewsNote actual);
+    String analyse(ParsedNewsArticle expected, ParsedNewsArticle actual);
 
     String key();
 

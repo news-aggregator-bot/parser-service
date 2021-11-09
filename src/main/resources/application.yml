@@ -2,7 +2,7 @@ server:
   port: 9055
 spring:
   application:
-    name: na-data-reader-service
+    name: parser-service
   main:
     banner-mode: "off"
   config:
@@ -27,6 +27,13 @@ management:
 logging:
   level:
     org.springframework.security: INFO
+    com.gargoylesoftware.htmlunit: OFF
+#    org:
+#      hibernate:
+#        SQL: debug
+#        type:
+#          descriptor:
+#            sql: trace
 hystrix:
   command:
     default:
@@ -36,3 +43,5 @@ hystrix:
             timeoutInMilliseconds: 10000
 subject:
   parse: parse
+read:
+  timeout: 30

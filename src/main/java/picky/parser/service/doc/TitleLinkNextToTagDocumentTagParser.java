@@ -16,8 +16,11 @@ import java.util.function.Function;
 @Component
 public class TitleLinkNextToTagDocumentTagParser implements DocumentTagParser {
 
-    @Autowired
-    private JsoupEvaluatorFactory evaluatorFactory;
+    private final JsoupEvaluatorFactory evaluatorFactory;
+
+    public TitleLinkNextToTagDocumentTagParser(JsoupEvaluatorFactory evaluatorFactory) {
+        this.evaluatorFactory = evaluatorFactory;
+    }
 
     @Override
     public Optional<Map.Entry<String, String>> parse(

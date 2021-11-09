@@ -1,12 +1,12 @@
 package picky.parser.service.mismatch;
 
-import bepicky.service.entity.NewsNote;
+import picky.parser.dto.ParsedNewsArticle;
 
 public class UrlValueAnalyser implements ValueAnalyzer {
 
     @Override
-    public String analyse(NewsNote expected, NewsNote actual) {
-        return expected.getUrl().equals(actual.getUrl()) ? null : mismatchMsg(expected.getUrl(), actual.getUrl());
+    public String analyse(ParsedNewsArticle expected, ParsedNewsArticle actual) {
+        return expected.getLink().equals(actual.getLink()) ? null : mismatchMsg(expected.getLink(), actual.getLink());
     }
 
     @Override

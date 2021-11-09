@@ -1,8 +1,8 @@
 package picky.parser.service.mismatch;
 
-import bepicky.service.entity.NewsNote;
 import lombok.Builder;
 import lombok.Data;
+import picky.parser.dto.ParsedNewsArticle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +11,9 @@ import java.util.List;
 @Data
 public class Mismatch {
 
-    private NewsNote expected;
+    private ParsedNewsArticle expected;
 
-    private NewsNote actual;
+    private ParsedNewsArticle actual;
 
     @Builder.Default
     private List<String> messages = new ArrayList<>();

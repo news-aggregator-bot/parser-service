@@ -32,19 +32,19 @@ public class DefaultWebContentParser implements WebContentParser {
     private final List<WebPageReader> webPageReaders;
     private final List<DocumentTagParser> tagParsers;
     private final JsoupEvaluatorFactory evaluatorFactory;
-    private final UrlNormalisationContext urlNormalisationContext;
+    private final UrlNormalisationService urlNormalisationService;
     private Map<String, WebPageReader> webPageReaderMap;
 
     public DefaultWebContentParser(
         List<WebPageReader> webPageReaders,
         List<DocumentTagParser> tagParsers,
         JsoupEvaluatorFactory evaluatorFactory,
-        UrlNormalisationContext urlNormalisationContext
+        UrlNormalisationService urlNormalisationContext
     ) {
         this.webPageReaders = webPageReaders;
         this.tagParsers = tagParsers;
         this.evaluatorFactory = evaluatorFactory;
-        this.urlNormalisationContext = urlNormalisationContext;
+        this.urlNormalisationService = urlNormalisationContext;
     }
 
     @PostConstruct
@@ -133,7 +133,7 @@ public class DefaultWebContentParser implements WebContentParser {
     }
 
     private String getHref(SourcePage page, Element a) {
-        return urlNormalisationContext.normaliseUrl(page, a);
+        return urlNormalisationService.normaliseUrl(page, a);
     }
 
     private String getAuthor(ContentTag authorTag, Element wrapper) {

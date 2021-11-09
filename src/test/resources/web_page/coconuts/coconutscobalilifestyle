@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="en-US" id="html"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <script>(function(html){html.className = html.className.replace(/bno-jsb/,'js')})(document.documentElement);</script>
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"> <!-- Google Tag Manager for WordPress by gtm4wp.com --> 
+  <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script> <!-- End Google Tag Manager for WordPress by gtm4wp.com --> <!-- This site is optimized with the Yoast SEO plugin v17.2.1 - https://yoast.com/wordpress/plugins/seo/ --> 
+  <title>Lifestyle - Coconuts</title> 
+  <meta name="description" content="Coconuts Bali publishes lifestyle stories on arts, showbiz, music, fashion &amp; shopping, LGBT+, sexuality &amp; dating, and Bali special city (aka island) guides."> 
+  <link rel="canonical" href="https://coconuts.co/bali/lifestyle/"> 
+  <link rel="next" href="https://coconuts.co/bali/lifestyle/page/2/"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:title" content="Lifestyle - Coconuts"> 
+  <meta property="og:description" content="Coconuts Bali publishes lifestyle stories on arts, showbiz, music, fashion &amp; shopping, LGBT+, sexuality &amp; dating, and Bali special city (aka island) guides."> 
+  <meta property="og:url" content="https://coconuts.co/bali/lifestyle/"> 
+  <meta property="og:site_name" content="Coconuts"> 
+  <meta property="og:image" content="https://coconuts.co/wp-content/uploads/2021/10/coconuts-opengraph.jpg"> 
+  <meta property="og:image:width" content="1200"> 
+  <meta property="og:image:height" content="630"> 
+  <meta name="twitter:card" content="summary_large_image"> 
+  <meta name="twitter:site" content="@coconutsmedia"> 
+  <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://coconuts.co/#website","url":"https://coconuts.co/","name":"Coconuts","description":"Fresh and Juicy News from Asia","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://coconuts.co/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://coconuts.co/bali/lifestyle/#webpage","url":"https://coconuts.co/bali/lifestyle/","name":"Lifestyle - Coconuts","isPartOf":{"@id":"https://coconuts.co/#website"},"description":"Coconuts Bali publishes lifestyle stories on arts, showbiz, music, fashion & shopping, LGBT+, sexuality & dating, and Bali special city (aka island) guides.","breadcrumb":{"@id":"https://coconuts.co/bali/lifestyle/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://coconuts.co/bali/lifestyle/"]}]},{"@type":"BreadcrumbList","@id":"https://coconuts.co/bali/lifestyle/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://coconuts.co/"},{"@type":"ListItem","position":2,"name":"Bali","item":"https://coconuts.co/bali/"},{"@type":"ListItem","position":3,"name":"Lifestyle"}]}]}</script> <!-- / Yoast SEO plugin. --> 
+  <link rel="dns-prefetch" href="//apis.google.com"> 
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com"> 
+  <link rel="dns-prefetch" href="//fonts.googleapis.com"> 
+  <link rel="dns-prefetch" href="//s.w.org"> 
+  <link rel="dns-prefetch" href="//fonts.gstatic.com"> 
+  <link rel="preconnect" href="https://www.facebook.com"> 
+  <link rel="preconnect" href="https://connect.facebook.net"> 
+  <link rel="preconnect" href="https://www.googletagservices.com"> 
+  <link rel="preconnect" href="https://www.googletagmanager.com"> 
+  <link rel="alternate" type="application/rss+xml" title="Coconuts » Feed" href="https://coconuts.co/feed/"> 
+  <link rel="alternate" type="application/rss+xml" title="Coconuts » Comments Feed" href="https://coconuts.co/comments/feed/"> 
+  <link rel="alternate" type="application/rss+xml" title="Coconuts » Lifestyle Category Feed" href="https://coconuts.co/bali/lifestyle/feed/"> 
+  <script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/coconuts.co\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script> 
+  <link rel="stylesheet" id="uaio-front-style-css" href="https://coconuts.co/wp-content/plugins/upme-all-in-one/css/uaio-front.css?ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="upme_google_fonts-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C700italic%2C400%2C700&amp;subset=latin%2Clatin-ext&amp;ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="upme_font_awesome-css" href="https://coconuts.co/wp-content/plugins/upme/css/font-awesome.min.css?ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="upme_css-css" href="https://coconuts.co/wp-content/plugins/upme/css/upme.css?ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="upme_style-css" href="https://coconuts.co/wp-content/plugins/upme/styles/default.css?ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="upme_responsive-css" href="https://coconuts.co/wp-content/plugins/upme/css/upme-responsive.css?ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="wp-block-library-css" href="https://coconuts.co/wp-content/plugins/gutenberg/build/block-library/style.css?ver=11.6.0" type="text/css" media="all"> 
+  <link rel="stylesheet" id="arve-main-css" href="https://coconuts.co/wp-content/plugins/advanced-responsive-video-embedder/build/main.css?ver=b809f4d4c33c91a5ae3a5099af09bdde" type="text/css" media="all"> 
+  <link rel="stylesheet" id="coconuts-theme-custom-css" href="https://coconuts.co/wp-content/plugins/coconuts-custom-functions/includes/assets/css/lib.css?ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="coconuts_paywall_css-css" href="https://coconuts.co/wp-content/plugins/coconuts-paywall/style.css?ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="contact-form-7-css" href="https://coconuts.co/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="fvp-frontend-css" href="https://coconuts.co/wp-content/plugins/featured-video-plus/styles/frontend.css?ver=2.3.3" type="text/css" media="all"> 
+  <style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--normal: 16px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--huge: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-normal-font-size{font-size: var(--wp--preset--font-size--normal) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-huge-font-size{font-size: var(--wp--preset--font-size--huge) !important;}
+</style> 
+  <link rel="stylesheet" id="stripe-handler-ng-style-css" href="https://coconuts.co/wp-content/plugins/stripe-payments/public/assets/css/public.css?ver=2.0.47" type="text/css" media="all"> 
+  <link rel="stylesheet" id="widgetopts-styles-css" href="https://coconuts.co/wp-content/plugins/widget-options/assets/css/widget-options.css" type="text/css" media="all"> 
+  <link rel="stylesheet" id="wordpress-popular-posts-css-css" href="https://coconuts.co/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=5.4.2" type="text/css" media="all"> 
+  <link rel="stylesheet" id="issuem-leaky-paywall-css" href="https://coconuts.co/wp-content/plugins/leaky-paywall//css/issuem-leaky-paywall.css?ver=4.14.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="coconut-slick-css-css" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css?ver=1.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="coconut-slick-theme-rp-css" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css?ver=1.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="ea-style-css" href="https://coconuts.co/wp-content/themes/genesis-coconuts/assets/css/main.css?ver=1633583639" type="text/css" media="all"> 
+  <link rel="stylesheet" id="coconuts-style-css" href="https://coconuts.co/wp-content/themes/genesis-coconuts/assets/css/coconuts.css?ver=1635837016" type="text/css" media="all"> 
+  <link rel="stylesheet" id="google-fonts-css" href="https://fonts.googleapis.com/css2?family=Open+Sans%3Aital%2Cwght%400%2C300%3B0%2C400%3B0%2C700%3B1%2C300%3B1%2C400%3B1%2C700&amp;display=swap&amp;ver=5.8.1" type="text/css" media="all"> 
+  <link rel="stylesheet" id="ubermenu-css" href="https://coconuts.co/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=3.7.4" type="text/css" media="all"> 
+  <link rel="stylesheet" id="ubermenu-font-awesome-all-css" href="https://coconuts.co/wp-content/plugins/ubermenu/assets/fontawesome/css/all.min.css?ver=5.8.1" type="text/css" media="all"> 
+  <script type="text/javascript" src="https://coconuts.co/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script> 
+  <script type="text/javascript" id="uaio-front-js-extra">
+/* <![CDATA[ */
+var UAIOFront = {"Messages":{"Processing":"Processing.","ClickToUnsubscribe":"Click to Unsubscribe.","ClickToSubscribe":"Click to Subscribe."},"AdminAjax":"https:\/\/coconuts.co\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/upme-all-in-one/js/uaio-front.js?ver=5.8.1" id="uaio-front-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/upme/js/upme-fitvids.js?ver=5.8.1" id="upme_fitvids_js-js"></script> 
+  <script type="text/javascript" id="upme_tmce-js-extra">
+/* <![CDATA[ */
+var UPMETmce = {"InsertUPMEShortcode":"Insert UPME Shortcode","LoginRegistrationForms":"Login \/ Registration Forms","FrontRegistrationForm":"Front-end Registration Form","RegFormCustomRedirect":"Registration Form with Custom Redirect","RegFormCaptcha":"Registration Form with Captcha","RegFormNoCaptcha":"Registration Form without Captcha","FrontLoginForm":"Front-end Login Form","SidebarLoginWidget":"Sidebar Login Widget (use in text widget)","LoginFormCustomRedirect":"Login Form with Custom Redirect","LogoutButton":"Logout Button","LogoutButtonCustomRedirect":"Logout Button with Custom Redirect","SingleProfile":"Single Profile","LoggedUserProfile":"Logged in User Profile","LoggedUserProfileUserID":"Logged in User Profile showing User ID","LoggedUserProfileHideStats":"Logged in User Profile without Stats","LoggedUserProfileUserRole":"Logged in User Profile showing User Role","LoggedUserProfileStatus":"Logged in User Profile showing Profile Status","LoggedUserProfileLogoutRedirect":"Logged in User Profile with Logout Redirect","PostAuthorProfile":"Post Author Profile","SpecificUserProfile":"Specific User Profile","MultipleProfilesMemberList":"Multiple Profiles \/ Member List","GroupSpecificUsers":"Group of Specific Users","AllUsers":"All Users","AllUsersCompactView":"All Users in Compact View","AllUsersCompactViewHalfWidth":"All Users in Compact View, Half Width","AllUsersModalWindow":"All Users in Modal Windows","AllUsersNewWindow":"All Users in New Windows","UsersBasedUserRole":"Users Based on User Role","AdministratorUsersOnly":"Administrator Users Only","AllUsersOrderedDisplayName":"All Users Ordered by Display Name","AllUsersOrderedPostCount":"All Users Ordered by Post Count","AllUsersOrderedRegistrationDate":"All Users Ordered by Registration Date","AllUsersOrderedCustomField":"All Users Ordered by Custom Field","AllUsersUserID":"All Users showing User ID","GroupUsersCustomField":"Group Users by Custom Field Values","HideUsersUntilSearch":"Hide All Users until Search","SearchProfile":"Search Profiles","SearchCustomFieldFilters":"Search with Custom Field Filters","PrivateContentLoginRequired":"Private Content (Login Required)","ShortcodeOptionExamples":"Shortcode Option Examples","HideUserStatistics":"Hide User Statistics","HideUserSocialBar":"Hide User Social Bar","HalfWidthProfileView":"1\/2 Width Profile View","CompactViewNoExtraFields":"Compact View (No extra fields)","CustomizedProfileFields":"Customized Profile Fields","ShowUserIDProfiles":"Show User ID on Profiles","LimitResultsMemberList":"Limit Results on Member List","ShowResultCountMemberList":"Show Result Count on Member List"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/upme/admin/js/tinymce_language_strings.js?ver=5.8.1" id="upme_tmce-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7" id="regenerator-runtime-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script> 
+  <script async type="text/javascript" src="https://coconuts.co/wp-content/plugins/advanced-responsive-video-embedder/build/main.js?ver=b809f4d4c33c91a5ae3a5099af09bdde" id="arve-main-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/coconuts-paywall/script.js?ver=5.8.1" id="coconuts_paywall_js-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/featured-video-plus/js/jquery.fitvids.min.js?ver=master-2015-08" id="jquery.fitvids-js"></script> 
+  <script type="text/javascript" id="fvp-frontend-js-extra">
+/* <![CDATA[ */
+var fvpdata = {"ajaxurl":"https:\/\/coconuts.co\/wp-admin\/admin-ajax.php","nonce":"e0c6a0f0ec","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/featured-video-plus/js/frontend.min.js?ver=2.3.3" id="fvp-frontend-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.13.1" id="gtm4wp-form-move-tracker-js"></script> 
+  <script type="application/json" id="wpp-json">
+{"sampling_active":0,"sampling_rate":100,"ajax_url":"https:\/\/coconuts.co\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/coconuts.co\/wp-json\/wordpress-popular-posts","ID":0,"token":"829268f5fc","lang":0,"debug":0}
+</script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=5.4.2" id="wpp-js-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/leaky-paywall-name-your-price/js/bpopup.js?ver=1.1.0" id="bpopup-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/themes/genesis-coconuts/assets/js/cb-scripts.js?ver=1" id="cb-scripts-js"></script> 
+  <link rel="https://api.w.org/" href="https://coconuts.co/wp-json/">
+  <link rel="alternate" type="application/json" href="https://coconuts.co/wp-json/wp/v2/categories/100316">
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://coconuts.co/xmlrpc.php?rsd"> 
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://coconuts.co/wp-includes/wlwmanifest.xml"> 
+  <meta name="twitter:site” content=“@coconutsmedia"> 
+  <meta name="twitter:creator” content=“@coconutsmedia"> 
+  <style type="text/css">
+.ai-viewport-3                { display: none !important;}
+.ai-viewport-2                { display: none !important;}
+.ai-viewport-1                { display: inherit !important;}
+.ai-viewport-0                { display: none !important;}
+@media (min-width: 768px) and (max-width: 959px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-2                { display: inherit !important;}
+}
+@media (max-width: 767px) {
+.ai-viewport-1                { display: none !important;}
+.ai-viewport-3                { display: inherit !important;}
+}
+</style> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+      var fn_pageskin = "false";
+      if (screen.width >= 1260) {
+        fn_pageskin = "true";
+      }
+      googletag.pubads().setTargeting("inskin_yes", fn_pageskin);
+    });
+</script> 
+  <script id="ads-header">
+    googletag.cmd.push(function() {
+                                googletag.defineSlot('/29990625/Bali_Lifestyle', [1, 1], 'div-gpt-ad-1493885698642-2').addService(googletag.pubads());
+                      		googletag.defineOutOfPageSlot('/29990625/Bali_Lifestyle', 'div-gpt-ad-1493884306041-2').addService(googletag.pubads());
+                      		googletag.defineSlot('/29990625/Bali_Lifestyle', [[970, 90], [970, 250], [728, 90]], 'div-gpt-ad-1489997714003-2').setTargeting('pos', ['COCOD1']).addService(googletag.pubads());
+                      		googletag.defineSlot('/29990625/Bali_Lifestyle', [320, 50], 'div-gpt-ad-1489999259751-2').setTargeting('pos', ['COCOM1']).addService(googletag.pubads());
+                      		googletag.defineSlot('/29990625/Bali_Lifestyle', [[300, 250], [300, 600]], 'div-gpt-ad-1490001245117-2').setTargeting('pos', ['COCOD2']).addService(googletag.pubads());
+                      		googletag.defineSlot('/29990625/Bali_Lifestyle', [300, 250], 'div-gpt-ad-1490002724126-2').setTargeting('pos', ['COCOM2']).addService(googletag.pubads());
+                      		      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+  });
+    </script> <!-- Stream WordPress user activity plugin v3.8.2 --> 
+  <style id="ubermenu-custom-generated-css">
+/** Font Awesome 4 Compatibility **/
+.fa{font-style:normal;font-variant:normal;font-weight:normal;font-family:FontAwesome;}
+
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+ .ubermenu-main .ubermenu-nav { max-width:100%; }
+ .ubermenu-main .ubermenu-row { max-width:100%; margin-left:auto; margin-right:auto; }
+ .ubermenu-main.ubermenu-mobile-modal.ubermenu-mobile-view { background:#ffffff; }
+ .ubermenu-main.ubermenu-transition-fade .ubermenu-item .ubermenu-submenu-drop { margin-top:0; }
+
+
+/* Status: Loaded from Transient */
+
+</style> <!-- Google Tag Manager for WordPress by gtm4wp.com --> 
+  <script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var dataLayer_content = {"pagePostType":"post","pagePostType2":"category-post","pageCategory":["bali","lifestyle-bali-bali","lifestyle-news"]};
+	dataLayer.push( dataLayer_content );//]]>
+</script> 
+  <script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N4JTNJ');//]]>
+</script> <!-- End Google Tag Manager --> <!-- End Google Tag Manager for WordPress by gtm4wp.com --> 
+  <style>
+            @-webkit-keyframes bgslide {
+                from {
+                    background-position-x: 0;
+                }
+                to {
+                    background-position-x: -200%;
+                }
+            }
+
+            @keyframes bgslide {
+                    from {
+                        background-position-x: 0;
+                    }
+                    to {
+                        background-position-x: -200%;
+                    }
+            }
+
+            .wpp-widget-placeholder {
+                margin: 0 auto;
+                width: 60px;
+                height: 3px;
+                background: #dd3737;
+                background: -webkit-gradient(linear, left top, right top, from(#dd3737), color-stop(10%, #571313), to(#dd3737));
+                background: linear-gradient(90deg, #dd3737 0%, #571313 10%, #dd3737 100%);
+                background-size: 200% auto;
+                border-radius: 3px;
+                -webkit-animation: bgslide 1s infinite linear;
+                animation: bgslide 1s infinite linear;
+            }
+        </style> 
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfepOQZAAAAAIEmAKKLCDPn5m6WYFgpaezg5KUM"></script> 
+  <script>
+		grecaptcha.ready(function() {
+		    grecaptcha.execute('6LfepOQZAAAAAIEmAKKLCDPn5m6WYFgpaezg5KUM', {action: 'register'}).then(function(token) {
+		       var recaptchaResponse = document.getElementById('recaptcha-response');
+
+		       if ( recaptchaResponse !== null ) {
+		       	 recaptchaResponse.value = token;
+		       }
+              
+		    });
+		});
+		</script> 
+  <style>
+			.grecaptcha-badge { visibility: hidden; }
+		</style> 
+  <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+  <link rel="icon" href="https://coconuts.co/wp-content/uploads/2019/01/logo-coconuts-square-192-70x70.png" sizes="32x32"> 
+  <link rel="icon" href="https://coconuts.co/wp-content/uploads/2019/01/logo-coconuts-square-192.png" sizes="192x192"> 
+  <link rel="apple-touch-icon" href="https://coconuts.co/wp-content/uploads/2019/01/logo-coconuts-square-192-185x185.png"> 
+  <meta name="msapplication-TileImage" content="https://coconuts.co/wp-content/uploads/2019/01/logo-coconuts-square-192.png"> 
+ </head> 
+ <body data-rsssl="1" class="archive content-sidebar">
+  <div class="site-container">
+   <ul class="genesis-skip-link">
+    <li><a href="#main-content" class="screen-reader-shortcut"> Skip to main content</a></li>
+    <li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li>
+    <li><a href="#genesis-footer-widgets" class="screen-reader-shortcut"> Skip to footer</a></li>
+   </ul>
+   <header class="site-header">
+    <div class="wrap">
+     <div id="coconuts-logo-left">
+      <section id="ubermenu_navigation_widget-3" class="widget ubermenu_navigation_widget-class">
+       <div class="widget-wrap"> <!-- UberMenu [Configuration:main] [Theme Loc:] [Integration:api] --> <button class="ubermenu-responsive-toggle ubermenu-responsive-toggle-main ubermenu-skin-none ubermenu-loc- ubermenu-responsive-toggle-content-align-left ubermenu-responsive-toggle-align-full " tabindex="0" data-ubermenu-target="ubermenu-main-800850"><i class="fas fa-bars"></i>Menu</button>
+        <nav id="ubermenu-main-800850" class="ubermenu ubermenu-nojs ubermenu-main ubermenu-menu-800850 ubermenu-responsive ubermenu-responsive-single-column ubermenu-responsive-single-column-subs ubermenu-responsive-default ubermenu-responsive-collapse ubermenu-horizontal ubermenu-transition-fade ubermenu-trigger-hover_intent ubermenu-skin-none  ubermenu-bar-align-full ubermenu-items-align-left ubermenu-disable-submenu-scroll ubermenu-sub-indicators ubermenu-retractors-responsive ubermenu-submenu-indicator-closes">
+         <ul id="ubermenu-nav-main-800850" class="ubermenu-nav" data-title="Coconuts Bali Menu">
+          <li id="menu-item-1039193" class="menu-burger ubermenu-item ubermenu-current-menu-ancestor ubermenu-current-menu-parent ubermenu-item-has-children ubermenu-item-1039193 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><span class="ubermenu-target ubermenu-target-with-icon ubermenu-item-layout-default ubermenu-item-layout-icon_left ubermenu-item-notext" tabindex="0"><i class="ubermenu-icon fas fa-bars"></i><i class="ubermenu-sub-indicator fas fa-angle-down"></i></span>
+           <ul class="ubermenu-submenu ubermenu-submenu-id-1039193 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item">
+            <li id="menu-item-1039194" class="ubermenu-item ubermenu-item-1039194 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1">
+             <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded">
+              <form role="search" method="get" id="searchform" action="https://coconuts.co/"> 
+               <input type="text" value="" name="s" id="s" placeholder="Search..."> 
+               <input type="submit" id="searchsubmit" value="Search"> 
+              </form>
+             </div></li>
+            <li id="menu-item-1039835" class="ubermenu-item ubermenu-item-home ubermenu-item-1039835 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/"><span class="ubermenu-target-title ubermenu-target-text">Home</span></a></li>
+            <li id="menu-item-1039196" class="ubermenu-item ubermenu-current-category-ancestor ubermenu-current-category-parent ubermenu-item-1039196 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/"><span class="ubermenu-target-title ubermenu-target-text">Coconuts Bali</span></a></li>
+            <li id="menu-item-1039197" class="ubermenu-item ubermenu-item-has-children ubermenu-item-1039197 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news"><span class="ubermenu-target-title ubermenu-target-text">News</span><i class="ubermenu-sub-indicator fas fa-angle-down"></i></a>
+             <ul class="ubermenu-submenu ubermenu-submenu-id-1039197 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item">
+              <li id="menu-item-1039198" class="ubermenu-item ubermenu-item-1039198 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/animals"><span class="ubermenu-target-title ubermenu-target-text">Animals</span></a></li>
+              <li id="menu-item-1039199" class="ubermenu-item ubermenu-item-1039199 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/business"><span class="ubermenu-target-title ubermenu-target-text">Business</span></a></li>
+              <li id="menu-item-1039200" class="ubermenu-item ubermenu-item-1039200 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/crime"><span class="ubermenu-target-title ubermenu-target-text">Crime</span></a></li>
+              <li id="menu-item-1039201" class="ubermenu-item ubermenu-item-1039201 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/environment"><span class="ubermenu-target-title ubermenu-target-text">Environment</span></a></li>
+              <li id="menu-item-1039202" class="ubermenu-item ubermenu-item-1039202 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/health"><span class="ubermenu-target-title ubermenu-target-text">Health</span></a></li>
+              <li id="menu-item-1039203" class="ubermenu-item ubermenu-item-1039203 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/politics"><span class="ubermenu-target-title ubermenu-target-text">Politics</span></a></li>
+              <li id="menu-item-1039204" class="ubermenu-item ubermenu-item-1039204 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/sports"><span class="ubermenu-target-title ubermenu-target-text">Sports</span></a></li>
+              <li id="menu-item-1039205" class="ubermenu-item ubermenu-item-1039205 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/transportation"><span class="ubermenu-target-title ubermenu-target-text">Transportation</span></a></li>
+              <li id="menu-item-1039206" class="ubermenu-item ubermenu-item-1039206 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/urban-development"><span class="ubermenu-target-title ubermenu-target-text">Urban development</span></a></li>
+              <li id="menu-item-1039207" class="ubermenu-item ubermenu-item-1039207 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/viral"><span class="ubermenu-target-title ubermenu-target-text">Viral</span></a></li>
+              <li id="menu-item-1039208" class="ubermenu-item ubermenu-item-1039208 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/weather"><span class="ubermenu-target-title ubermenu-target-text">Weather</span></a></li>
+              <li id="menu-item-1039209" class="ubermenu-item ubermenu-item-1039209 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/news/weird"><span class="ubermenu-target-title ubermenu-target-text">Weird</span></a></li>
+             </ul></li>
+            <li id="menu-item-1039210" class="ubermenu-item ubermenu-item-has-children ubermenu-item-1039210 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/food-drink"><span class="ubermenu-target-title ubermenu-target-text">Food &amp; Drink</span><i class="ubermenu-sub-indicator fas fa-angle-down"></i></a>
+             <ul class="ubermenu-submenu ubermenu-submenu-id-1039210 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item">
+              <li id="menu-item-1039211" class="ubermenu-item ubermenu-item-1039211 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/food-drink/bars-nightlife"><span class="ubermenu-target-title ubermenu-target-text">Bars &amp; Nightlife</span></a></li>
+              <li id="menu-item-1039212" class="ubermenu-item ubermenu-item-1039212 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/food-drink/fb-news"><span class="ubermenu-target-title ubermenu-target-text">F&amp;B News</span></a></li>
+              <li id="menu-item-1039213" class="ubermenu-item ubermenu-item-1039213 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/food-drink/food-guides"><span class="ubermenu-target-title ubermenu-target-text">Food Guides</span></a></li>
+              <li id="menu-item-1039214" class="ubermenu-item ubermenu-item-1039214 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/food-drink/hot-spots"><span class="ubermenu-target-title ubermenu-target-text">Hot Spots</span></a></li>
+              <li id="menu-item-1039215" class="ubermenu-item ubermenu-item-1039215 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/food-drink/reviews"><span class="ubermenu-target-title ubermenu-target-text">Reviews</span></a></li>
+             </ul></li>
+            <li id="menu-item-1039216" class="ubermenu-item ubermenu-current-menu-item ubermenu-item-has-children ubermenu-item-1039216 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/lifestyle"><span class="ubermenu-target-title ubermenu-target-text">Lifestyle</span><i class="ubermenu-sub-indicator fas fa-angle-down"></i></a>
+             <ul class="ubermenu-submenu ubermenu-submenu-id-1039216 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item">
+              <li id="menu-item-1039217" class="ubermenu-item ubermenu-item-1039217 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/lifestyle/arts"><span class="ubermenu-target-title ubermenu-target-text">Arts</span></a></li>
+              <li id="menu-item-1039218" class="ubermenu-item ubermenu-item-1039218 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/lifestyle/city-guides"><span class="ubermenu-target-title ubermenu-target-text">City guides</span></a></li>
+              <li id="menu-item-1039219" class="ubermenu-item ubermenu-item-1039219 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/lifestyle/lifestyle-news"><span class="ubermenu-target-title ubermenu-target-text">Lifestyle News</span></a></li>
+              <li id="menu-item-1039220" class="ubermenu-item ubermenu-item-1039220 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/lifestyle/love-dating"><span class="ubermenu-target-title ubermenu-target-text">Love &amp; Dating</span></a></li>
+              <li id="menu-item-1039221" class="ubermenu-item ubermenu-item-1039221 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/lifestyle/music-showbiz"><span class="ubermenu-target-title ubermenu-target-text">Music &amp; Showbiz</span></a></li>
+              <li id="menu-item-1039222" class="ubermenu-item ubermenu-item-1039222 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/lifestyle/retail-therapy"><span class="ubermenu-target-title ubermenu-target-text">Retail Therapy</span></a></li>
+             </ul></li>
+            <li id="menu-item-1039223" class="ubermenu-item ubermenu-item-has-children ubermenu-item-1039223 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1 ubermenu-has-submenu-drop ubermenu-has-submenu-flyout"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/features"><span class="ubermenu-target-title ubermenu-target-text">Features</span><i class="ubermenu-sub-indicator fas fa-angle-down"></i></a>
+             <ul class="ubermenu-submenu ubermenu-submenu-id-1039223 ubermenu-submenu-type-auto ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item">
+              <li id="menu-item-1039224" class="ubermenu-item ubermenu-item-1039224 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/features/columns"><span class="ubermenu-target-title ubermenu-target-text">Columns</span></a></li>
+              <li id="menu-item-1039225" class="ubermenu-item ubermenu-item-1039225 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/features/interviews"><span class="ubermenu-target-title ubermenu-target-text">Interviews</span></a></li>
+              <li id="menu-item-1039226" class="ubermenu-item ubermenu-item-1039226 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/features/long-reads"><span class="ubermenu-target-title ubermenu-target-text">Long reads</span></a></li>
+              <li id="menu-item-1039227" class="ubermenu-item ubermenu-item-1039227 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/features/photo-essays"><span class="ubermenu-target-title ubermenu-target-text">Photo essays</span></a></li>
+              <li id="menu-item-1039228" class="ubermenu-item ubermenu-item-1039228 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-2"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/bali/features/opinion"><span class="ubermenu-target-title ubermenu-target-text">Opinion</span></a></li>
+             </ul></li>
+            <li id="menu-item-1039229" class="ubermenu-item ubermenu-item-1039229 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="https://coconuts.co/tags/travel/"><span class="ubermenu-target-title ubermenu-target-text">Travel</span></a></li>
+            <li id="menu-item-1039230" class="ubermenu-item ubermenu-item-1039230 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1">
+             <div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded"> 
+              <div id="menu-social-icons"> <a href="https://facebook.com/coconuts/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-facebook.svg"></a> <a href="https://twitter.com/coconuts/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-twitter.svg"></a> <a href="https://www.youtube.com/coconutstv/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-youtube.svg"></a> <a href="https://www.instagram.com/coconuts/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-instagram.svg"></a> <a href="https://facebook.com/coconuts/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-feed.svg"></a> 
+              </div> 
+             </div></li>
+           </ul></li>
+         </ul>
+        </nav> <!-- End UberMenu --> 
+       </div>
+      </section> 
+      <section id="custom_html-2" class="widget_text coco-select_city widget widget_custom_html">
+       <div class="widget_text coco-select_city widget-wrap">
+        <div class="textwidget custom-html-widget"> 
+         <div class="dynamic_select"> <button class="ds-btn d-flex justify-content-between">Bali <i class="fa fa-angle-down fa-fw"></i></button> 
+          <div class="ds-dropdown"> <a class="ds-item" href="/bali/">Bali</a> <a class="ds-item" href="/bangkok/">Bangkok</a> <a class="ds-item" href="/hongkong/">Hong Kong</a> <a class="ds-item" href="/jakarta/">Jakarta</a> <a class="ds-item" href="/kl/">KL</a> <a class="ds-item" href="/manila/">Manila</a> <a class="ds-item" href="/singapore/">Singapore</a> <a class="ds-item" href="/yangon/">Yangon</a> 
+          </div> 
+         </div> 
+         <script>
+		var mm=jQuery.noConflict();
+		mm(function() {
+			// mm('#dynamic_select').on('change', function () { // bind change event to select
+			// 	var url = mm(this).val(); // get selected value
+			// 	if (url) { // require a URL
+			// 		window.location = url; // redirect
+			// 	}
+			// 	return false;
+			// });
+
+			// change logo 
+			mm('.site-title a').append(' <span>bali</span>')
+			mm('.site-title a').attr('href', '../../../bali')
+
+			// footer dropdown menu class	
+			if('bali') {
+				mm('.menu-our-cities-container').addClass('selected')
+			}
+			mm('.menu-our-cities-container li').each(function(){
+				var gct = mm(this).find('a').text()
+				mm(this).addClass(gct.replace(/\s/g,'').toLowerCase())
+
+				var cct = 'bali'
+				if(cct == gct.replace(/\s/g,'').toLowerCase()) {
+					mm(this).addClass('selected')
+				}
+			})
+
+			mm('.ds-btn').click(()=>{mm('.ds-dropdown').toggle()})
+
+			mm('.menu-burger>.ubermenu-submenu>.ubermenu-item:last').before('<li class="ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ds-city-menu ubermenu-item-layout-default ubermenu-item-layout-text_only" href="#"><span class="ubermenu-target-title ubermenu-target-text ">Select City</span></a></li><li class="city-menu ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/bali/"><span class="ubermenu-target-title ubermenu-target-text ">Bali</span></a></li><li class="city-menu ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/bangkok/"><span class="ubermenu-target-title ubermenu-target-text ">Bangkok</span></a></li><li class="city-menu ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/hongkong/"><span class="ubermenu-target-title ubermenu-target-text ">Hong Kong</span></a></li><li class="city-menu ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/jakarta/"><span class="ubermenu-target-title ubermenu-target-text ">Jakarta</span></a></li><li class="city-menu ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/kl/"><span class="ubermenu-target-title ubermenu-target-text ">KL</span></a></li><li class="city-menu ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/manila/"><span class="ubermenu-target-title ubermenu-target-text ">Manila</span></a></li><li class="city-menu ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/singapore/"><span class="ubermenu-target-title ubermenu-target-text ">Singapore</span></a></li><li class="city-menu ubermenu-item ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1"><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="/yangon/"><span class="ubermenu-target-title ubermenu-target-text ">Yangon</span></a></li>')
+			
+			mm('.ds-city-menu').click(()=>{mm('.city-menu').toggle()})
+		})
+	</script> 
+        </div>
+       </div>
+      </section> 
+      <section id="custom_html-3" class="widget_text coco-current_cat widget widget_custom_html">
+       <div class="widget_text coco-current_cat widget-wrap">
+        <div class="textwidget custom-html-widget">
+         Lifestyle 
+        </div>
+       </div>
+      </section> 
+      <section id="custom_html-4" class="widget_text coco-date_today widget widget_custom_html">
+       <div class="widget_text coco-date_today widget-wrap">
+        <div class="textwidget custom-html-widget">
+         Sunday | November 07, 2021
+        </div>
+       </div>
+      </section> 
+     </div>
+     <div class="title-area">
+      <p class="site-title"><a href="https://coconuts.co/">Coconuts</a></p>
+     </div>
+     <div id="coconuts-logo-right">
+      <section id="nav_menu-3" class="widget widget_nav_menu">
+       <div class="widget-wrap">
+        <div class="menu-header-right-container">
+         <ul id="menu-header-right" class="menu">
+          <li id="menu-item-1039680" class="menu-item"><a href="https://shop.coconuts.co/">Shop</a></li> 
+          <li id="menu-item-1039681" class="menu-item"><a href="https://coconuts.co/newsletters/">Newsletters</a></li> 
+          <li id="menu-item-1039682" class="pink-btn menu-item"><a href="https://coconuts.co/coco-plus-membership/">Join Coco+</a></li> 
+          <li id="menu-item-1039683" class="coconuts-account menu-item"><a href="https://coconuts.co/login/">Login</a></li> 
+         </ul>
+        </div>
+       </div>
+      </section> 
+     </div>
+    </div>
+   </header>
+   <div class="site-inner" id="main-content">
+    <div class="wrap"> 
+     <main> 
+      <div class="ad-unit-top"> 
+       <section id="ai_widget-38" class="widget ai_widget">
+        <div class="widget-wrap">
+         <div class="co-adv co-adv-9" style="margin: 8px 0;"> 
+          <div id="div-gpt-ad-1489997714003-2"> 
+           <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489997714003-2'); });
+    </script> 
+          </div> 
+         </div> 
+        </div>
+       </section> 
+      </div> 
+      <section class="coco-archive-posts section-wrap"> 
+       <div class="container"> 
+        <div class="row justify-content-between"> 
+         <div class="col-md-8 main-stream-content pos-relative"> 
+          <h3 class="section-header"><i class="icon-tag"></i><span>Lifestyle</span></h3> 
+          <div class="co-river-infinite"> 
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/poo-like-a-goddess-life-coach-in-bali-wants-to-dump-taboos-surrounding-womens-digestive-issues/"> <img src="https://coconuts.co/wp-content/uploads/2021/10/CK7A8702-1-scaled.jpeg" class="coco-img-wrap " title="‘Poo like a goddess’: Life coach in Bali wants to dump taboos surrounding women’s digestive issues"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/lifestyle-news" title="Lifestyle News">Lifestyle News</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/poo-like-a-goddess-life-coach-in-bali-wants-to-dump-taboos-surrounding-womens-digestive-issues/" title="‘Poo like a goddess’: Life coach in Bali wants to dump taboos surrounding women’s digestive issues"> ‘Poo like a goddess’: Life coach in Bali wants to dump taboos surrounding women’s digestive issues</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">October 1, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/mermaid-rubbish-kuta-beach-add-coconuts-balis-limited-edition-wall-art-to-your-room-decor/"> <img src="https://coconuts.co/wp-content/uploads/2021/09/coconuts10_coverpost_web_21sep11.jpg" class="coco-img-wrap " title="Mermaid + Rubbish + Kuta Beach: Add Coconuts Bali’s limited edition wall art to your room decor"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/retail-therapy" title="Retail Therapy">Retail Therapy</a>, <a class="txt" href="https://coconuts.co/tags/coconuts-turns-10/" title="Coconuts Turns 10!">Coconuts Turns 10!</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/mermaid-rubbish-kuta-beach-add-coconuts-balis-limited-edition-wall-art-to-your-room-decor/" title="Mermaid + Rubbish + Kuta Beach: Add Coconuts Bali’s limited edition wall art to your room decor"> Mermaid + Rubbish + Kuta Beach: Add Coconuts Bali’s limited edition wall art to your room decor</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">September 22, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/giveaway-alert-celebrate-10-years-of-coconuts-and-win-yourself-a-staycation/"> <img src="https://coconuts.co/wp-content/uploads/2021/09/Viceroy-Bali-Main-Pool-Coconut-Promotion.jpg" class="coco-img-wrap " title="Giveaway alert! Celebrate 10 years of Coconuts and win yourself a staycation"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/giveaway-alert-celebrate-10-years-of-coconuts-and-win-yourself-a-staycation/" title="Giveaway alert! Celebrate 10 years of Coconuts and win yourself a staycation"> Giveaway alert! Celebrate 10 years of Coconuts and win yourself a staycation</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">September 17, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/indonesian-dj-gebby-vesta-airs-travel-frustrations-during-covid-says-rules-only-apply-to-commoners/"> <img src="https://coconuts.co/wp-content/uploads/2021/07/Gebby-Vesta.jpg" class="coco-img-wrap " title="Indonesian DJ Gebby Vesta airs travel frustrations during COVID, says rules ‘only apply to commoners’"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/lifestyle-news" title="Lifestyle News">Lifestyle News</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/music-showbiz" title="Music &amp; Showbiz">Music &amp; Showbiz</a>, <a class="txt" href="https://coconuts.co/tags/travel/" title="Travel">Travel</a>, <a class="txt" href="https://coconuts.co/tags/coronavirus/" title="Coronavirus">Coronavirus</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/indonesian-dj-gebby-vesta-airs-travel-frustrations-during-covid-says-rules-only-apply-to-commoners/" title="Indonesian DJ Gebby Vesta airs travel frustrations during COVID, says rules ‘only apply to commoners’"> Indonesian DJ Gebby Vesta airs travel frustrations during COVID, says rules ‘only apply to commoners’</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">July 23, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/viet-thanh-nguyen-andre-aciman-eva-bande-to-grace-this-years-ubud-writers-and-readers-festival/"> <img src="https://coconuts.co/wp-content/uploads/2021/07/48972871401_5fe03f9b59_c.jpg" class="coco-img-wrap " title="Viet Thanh Nguyen, André Aciman, Eva Bande to grace this year’s Ubud Writers and Readers Festival"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/arts" title="Arts">Arts</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/lifestyle-news" title="Lifestyle News">Lifestyle News</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/viet-thanh-nguyen-andre-aciman-eva-bande-to-grace-this-years-ubud-writers-and-readers-festival/" title="Viet Thanh Nguyen, André Aciman, Eva Bande to grace this year’s Ubud Writers and Readers Festival"> Viet Thanh Nguyen, André Aciman, Eva Bande to grace this year’s Ubud Writers and Readers Festival</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">July 22, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/balinese-artist-i-made-djirna-explores-the-voice-of-nature-in-upcoming-solo-exhibition-in-singapore/"> <img src="https://coconuts.co/wp-content/uploads/2021/07/I-Made-Djirna.jpg" class="coco-img-wrap " title="Balinese artist I Made Djirna explores ‘The Voice of Nature’ in upcoming solo exhibition in Singapore"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/arts" title="Arts">Arts</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/balinese-artist-i-made-djirna-explores-the-voice-of-nature-in-upcoming-solo-exhibition-in-singapore/" title="Balinese artist I Made Djirna explores ‘The Voice of Nature’ in upcoming solo exhibition in Singapore"> Balinese artist I Made Djirna explores ‘The Voice of Nature’ in upcoming solo exhibition in Singapore</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">July 13, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/instagram-celebrity-arrested-in-bali-for-alleged-drug-use/"> <img src="https://coconuts.co/wp-content/uploads/2021/07/s4ozjz5hjbzjpdondaii.jpeg" class="coco-img-wrap " title="Instagram celebrity arrested in Bali for alleged drug use"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/lifestyle-news" title="Lifestyle News">Lifestyle News</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/instagram-celebrity-arrested-in-bali-for-alleged-drug-use/" title="Instagram celebrity arrested in Bali for alleged drug use"> Instagram celebrity arrested in Bali for alleged drug use</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">July 13, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/jrx-files-police-report-over-alleged-hacking-of-instagram-account/"> <img src="https://coconuts.co/wp-content/uploads/2021/07/jrx-files-police-report.jpg" class="coco-img-wrap " title="JRX files police report over alleged hacking of Instagram account"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/lifestyle-news" title="Lifestyle News">Lifestyle News</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/music-showbiz" title="Music &amp; Showbiz">Music &amp; Showbiz</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/jrx-files-police-report-over-alleged-hacking-of-instagram-account/" title="JRX files police report over alleged hacking of Instagram account"> JRX files police report over alleged hacking of Instagram account</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">July 7, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/balis-best-mandapa-and-the-legian-chosen-among-tripadvisors-top-hotels-in-asia/"> <img src="https://coconuts.co/wp-content/uploads/2021/06/187731295_3923504664363814_3343402744027389860_n.jpeg" class="coco-img-wrap " title="Bali’s best: Mandapa and The Legian chosen among Tripadvisor’s top hotels in Asia"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/lifestyle-news" title="Lifestyle News">Lifestyle News</a>, <a class="txt" href="https://coconuts.co/tags/travel/" title="Travel">Travel</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/balis-best-mandapa-and-the-legian-chosen-among-tripadvisors-top-hotels-in-asia/" title="Bali’s best: Mandapa and The Legian chosen among Tripadvisor’s top hotels in Asia"> Bali’s best: Mandapa and The Legian chosen among Tripadvisor’s top hotels in Asia</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">June 22, 2021</span> 
+             </div> 
+            </div> 
+           </article>
+           <article class="coco-article row"> 
+            <div class="col-6 col-lg-4 h-archive"> <a href="https://coconuts.co/bali/lifestyle/jerinx-accuses-bunga-citra-lestari-of-jeopardizing-balis-tourism-reopening-with-her-covid-19-diagnosis/"> <img src="https://coconuts.co/wp-content/uploads/2021/06/bcl-vs-jrx-1.jpg" class="coco-img-wrap " title="Jerinx accuses Bunga Citra Lestari of jeopardizing Bali’s tourism reopening with her COVID-19 diagnosis"> </a> 
+            </div> 
+            <div class="col-6 col-lg-8 d-flex flex-column justify-content-center"> 
+             <div class="coco-post-tags hidden-xs"> <a class="txt" href="https://coconuts.co/bali/lifestyle" title="Lifestyle">Lifestyle</a>, <a class="txt" href="https://coconuts.co/bali/lifestyle/music-showbiz" title="Music &amp; Showbiz">Music &amp; Showbiz</a>, <a class="txt" href="https://coconuts.co/tags/coronavirus/" title="Coronavirus">Coronavirus</a>
+             </div> 
+             <h5 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/jerinx-accuses-bunga-citra-lestari-of-jeopardizing-balis-tourism-reopening-with-her-covid-19-diagnosis/" title="Jerinx accuses Bunga Citra Lestari of jeopardizing Bali’s tourism reopening with her COVID-19 diagnosis"> Jerinx accuses Bunga Citra Lestari of jeopardizing Bali’s tourism reopening with her COVID-19 diagnosis</a></h5> 
+             <div class="coco-post-terms show "> 
+              <div class="coco-post-author"> <!--<a href="/profile/Coconuts Bali">Coconuts Bali</a> --> <a href="https://coconuts.co/bali/">Coconuts Bali</a> 
+              </div> | <span class="coco-post-date">June 17, 2021</span> 
+             </div> 
+            </div> 
+           </article> <button class="button-loadmore" type="button" title="Loading more content..." data-url="https://coconuts.co/wp-admin/admin-ajax.php?action=load_more_ajax&amp;paged=2" data-category="100316" data-tags="" data-target=".co-river-infinite"><span class="wrap-icons"><span><i>&nbsp;</i></span><span><i>&nbsp;</i></span><span><i>&nbsp;</i></span></span><span class="txt">Load More</span></button> 
+          </div> 
+         </div> 
+         <div class="coco-sidebar col-md-4"> 
+          <div id="coco-newsletter-sidebar" class="sb-block green-pattern newsletter border border-coco-green"> 
+           <img src="/wp-content/themes/genesis-coconuts/assets/images/pink-envelop.png" alt="envelop newsletter"> 
+           <h4 class="mt-3">SUBSCRIBE TO OUR NEWSLETTER</h4> 
+           <p class="mb-4"> Get the best of Coconuts delivered to your inbox!</p> <a class="btn btncocoplus" href="/newsletters/"> Subscribe Now </a> 
+          </div> <!-- SPONSORED ARTICLE 1 --> <!-- END SPONSORED ARTICLE --> 
+          <section id="ai_widget-40" class="widget ai_widget">
+           <div class="widget-wrap">
+            <div class="co-adv co-adv-11" style="margin: 8px 0;"> 
+             <div id="div-gpt-ad-1490001245117-2"> 
+              <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1490001245117-2'); });
+    </script> 
+             </div> 
+            </div> 
+           </div>
+          </section> <!-- SPONSORED ARTICLE 2 --> <!-- END SPONSORED ARTICLE --> 
+          <div class="sb-block"> 
+           <div class="co-seo-description"> 
+            <h2 class="co-seo-description__title">Coconuts Bali Lifestyle</h2> 
+            <div class="co-seo-description__ct"> 
+             <p>Take a break from the news (both the hard crime stuff and soft viral heart-warming pieces we are known to cover) and get swept up into the Coconuts Bali lifestyle section. We love the news, really we do, but you can never really understand and experience a place without feeling its lifestyle and getting in tune with culture. Let’s be honest, Bali is a culture-rich island with loads to write on and explore. Stories on the island’s dazzling and intriguing arts, entertaining showbiz, hip and traditional music, trendy fashion &amp; shopping, LGBT+, sexuality &amp; dating, and Bali special city (aka island) guides get regularly posted to get into Bali’s booming cultural sphere. Need to know which volcano in Bali you should climb? We have answers. How to pass the time on a rainy day during ‘musim hujan’ when going to the beach isn’t really the best of ideas? We’ve got the rundown. Where are the best swim-up bars or Sunday brunch buffets with alcohol packages (we see you alcies out theres—plus daytime drinking ain’t no thang when it comes to vacation)? Don’t worry, we’ve also got heaps of family-friendly content too. Why check out our lifestyle section when there are loads of glossy travel and inflight magazines and aggregating Instagram accounts bringing you tastes of the ‘Bali lifestyle’? Because we keep it real with you and aren’t just posting for appearances and followers. We’ll give it to you straight up with a twist—got to keep things interesting, edgy, and spicy, not vanilla, you know?</p> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </section> 
+      <section id="coco-most-recent-archive" class="section-wrap"> 
+       <div class="container"> 
+        <article class="coco-article "> 
+         <div class="row"> 
+          <div class="col-lg-6 highlighted-post"> <a href="https://coconuts.co/bali/lifestyle/poo-like-a-goddess-life-coach-in-bali-wants-to-dump-taboos-surrounding-womens-digestive-issues/"> <img src="https://coconuts.co/wp-content/uploads/2021/10/CK7A8702-1-scaled.jpeg" class="coco-img-wrap " title="‘Poo like a goddess’: Life coach in Bali wants to dump taboos surrounding women’s digestive issues"> </a> 
+          </div> 
+          <div class="col-lg-6 d-flex flex-column justify-content-center"> 
+           <h3 class="coco-article-title"> <a href="https://coconuts.co/bali/lifestyle/poo-like-a-goddess-life-coach-in-bali-wants-to-dump-taboos-surrounding-womens-digestive-issues/" title="‘Poo like a goddess’: Life coach in Bali wants to dump taboos surrounding women’s digestive issues"> ‘Poo like a goddess’: Life coach in Bali wants to dump taboos surrounding women’s digestive issues</a></h3> 
+           <p class="coco-excerpt "> The debut event is scheduled for next week at The Yoga Barn in Ubud. </p> 
+           <div class="coco-post-terms  "> <span class="coco-post-category"> <a href="https://coconuts.co/bali/" title="Bali">Bali</a></span> | <span class="coco-post-date">October 1, 2021</span> 
+           </div> 
+          </div> 
+         </div> 
+        </article> 
+       </div> 
+      </section> 
+      <section id="coco-subscriber-newsletter"> 
+       <div class="container"> 
+        <div class="row"> 
+         <div class="col-sm-6"> 
+          <h3>Subscribe To Our Newsletter</h3> 
+          <p>Get the best of Coconuts delivered to your inbox!</p> <a class="white-btn btn" href="/newsletters/">Subscribe Now</a> 
+         </div> 
+         <div class="col-sm-6"> 
+          <img src="/wp-content/themes/genesis-coconuts/assets/images/img-subscribe-bg-b.png"> 
+         </div> 
+        </div> 
+       </div> 
+      </section> 
+     </main> 
+    </div>
+   </div>
+   <div id="coconuts-social-icons"> 
+    <div class="wrap"> 
+     <div id="coco-logo-icons"> 
+      <div id="footer-logo"> 
+       <img src="/wp-content/themes/genesis-coconuts/assets/icons/brand/coconuts-logo.svg"> 
+      </div> 
+      <div id="footer-social-icons"> <a href="https://facebook.com/coconuts/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-facebook.svg"></a> <a href="https://twitter.com/coconuts/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-twitter.svg"></a> <a href="https://www.youtube.com/coconutstv/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-youtube.svg"></a> <a href="https://www.instagram.com/coconuts/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-instagram.svg"></a> <a href="https://facebook.com/coconuts/" target="_blank"><img src="/wp-content/themes/genesis-coconuts/assets/icons/social/icon-feed.svg"></a> 
+      </div> 
+     </div> 
+     <div id="coconuts-social-icons-menu"> 
+      <div class="menu-social-icons-text-menu-container">
+       <ul id="menu-social-icons-text-menu" class="menu">
+        <li id="menu-item-1039673" class="menu-item"><a href="https://coconuts.co/patron/">Become a Patron</a></li> 
+        <li id="menu-item-1039674" class="menu-item"><a href="https://coconuts.co/login/">Login</a></li> 
+       </ul>
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-widgets" id="genesis-footer-widgets">
+    <h2 class="genesis-sidebar-title screen-reader-text">Footer</h2>
+    <div class="wrap">
+     <div class="widget-area footer-widgets-1 footer-widget-area">
+      <section id="nav_menu-1" class="widget widget_nav_menu">
+       <div class="widget-wrap">
+        <h3 class="widgettitle widget-title">Company</h3> 
+        <div class="menu-company-container">
+         <ul id="menu-company" class="menu">
+          <li id="menu-item-1039684" class="menu-item"><a href="https://coconuts.co/about-coconuts/">About Us</a></li> 
+          <li id="menu-item-1039778" class="menu-item"><a href="https://coconuts.co/advertise/">Advertising</a></li> 
+          <li id="menu-item-1039686" class="menu-item"><a href="https://coconuts.co/coconuts-announcements/">Announcements</a></li> 
+          <li id="menu-item-1039687" class="menu-item"><a href="https://coconuts.co/contact/">Contact Us</a></li> 
+          <li id="menu-item-1039688" class="menu-item"><a href="https://directory.coconuts.co">Directory</a></li> 
+          <li id="menu-item-1039689" class="menu-item"><a href="https://coconuts.co/coconuts-editorial-policies/">Editorial Policies</a></li> 
+          <li id="menu-item-1039690" class="menu-item"><a href="https://coconuts.co/events">Events</a></li> 
+          <li id="menu-item-1039691" class="menu-item"><a href="https://coconuts.co/jobs/">Jobs</a></li> 
+          <li id="menu-item-1039854" class="menu-item"><a href="https://coconuts.co/newsletters/">Newsletters</a></li> 
+          <li id="menu-item-1039693" class="menu-item"><a href="https://coconuts.co/grove/">Grove: Coconuts Brand Studio</a></li> 
+         </ul>
+        </div>
+       </div>
+      </section> 
+     </div>
+     <div class="widget-area footer-widgets-2 footer-widget-area">
+      <section id="nav_menu-2" class="widget widget_nav_menu">
+       <div class="widget-wrap">
+        <h3 class="widgettitle widget-title">Our Cities</h3> 
+        <div class="menu-our-cities-container">
+         <ul id="menu-our-cities" class="menu">
+          <li id="menu-item-123" class="menu-item current-category-ancestor"><a href="https://coconuts.co/bali/">Bali</a></li> 
+          <li id="menu-item-124" class="menu-item"><a href="https://coconuts.co/bangkok/">Bangkok</a></li> 
+          <li id="menu-item-125" class="menu-item"><a href="https://coconuts.co/hongkong/">Hong Kong</a></li> 
+          <li id="menu-item-126" class="menu-item"><a href="https://coconuts.co/jakarta/">Jakarta</a></li> 
+          <li id="menu-item-127" class="menu-item"><a href="https://coconuts.co/kl/">KL</a></li> 
+          <li id="menu-item-128" class="menu-item"><a href="https://coconuts.co/manila/">Manila</a></li> 
+          <li id="menu-item-129" class="menu-item"><a href="https://coconuts.co/singapore/">Singapore</a></li> 
+          <li id="menu-item-130" class="menu-item"><a href="https://coconuts.co/yangon/">Yangon</a></li> 
+         </ul>
+        </div>
+       </div>
+      </section> 
+     </div>
+     <div class="widget-area footer-widgets-3 footer-widget-area">
+      <section id="custom_html-1" class="widget_text widget widget_custom_html">
+       <div class="widget_text widget-wrap">
+        <h3 class="widgettitle widget-title">Join COCO+</h3> 
+        <div class="textwidget custom-html-widget">
+         <span>Pay what you want, starting at US$5 / year.</span> <a href="https://coconuts.co/coco-plus-membership/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="11.25" viewbox="0 0 16 11.25"> <g id="Group_429" data-name="Group 429" transform="translate(-1361.231 -4418.441)"> 
+            <g id="Group_428" data-name="Group 428"> 
+             <path id="Path_390" data-name="Path 390" d="M1372.006,4418.61a.568.568,0,0,0-.806.8l4.088,4.089H1361.8a.563.563,0,0,0-.566.566.57.57,0,0,0,.566.572h13.491l-4.088,4.079a.58.58,0,0,0,0,.807.565.565,0,0,0,.806,0l5.056-5.056a.553.553,0,0,0,0-.8Zm0,0" /> 
+            </g> 
+           </g> 
+          </svg></a>
+        </div>
+       </div>
+      </section> 
+     </div>
+    </div>
+   </div>
+   <footer class="site-footer">
+    <div class="wrap">
+     <div class="footer-left">
+      <p class="copyright">Copyright © 2021 Coconuts Media Limited. All Rights Reserved.</p>
+      <p class="footer-links"><a href="https://coconuts.co/terms">Terms Of Service</a> <a href="https://coconuts.co/privacy-policy">Privacy Policy</a></p>
+     </div><a class="backtotop" href="#main-content">Back to top
+      <svg class="svg-icon" width="16" height="16" aria-hidden="true" role="img" focusable="false" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+       <path d="m20.3368977 7.38162089-6.9772567-6.97586127c-.5037579-.516317-1.4094058-.56515779-1.9745636 0l-6.97586129 6.97586127c-.54562148.54562147-.54562148 1.42754672 0 1.9731682.54562147.54562147 1.42754672.54562147 1.9731682 0l4.59522129-4.59522128v17.84498089c0 .7716845.6237667 1.3954513 1.3954513 1.3954513.7702892 0 1.3954514-.6237668 1.3954514-1.3954513v-17.84498089l4.5952212 4.59522128c.5456215.54562147 1.4275468.54562147 1.9731682 0 .5456215-.54562148.5456215-1.42754673 0-1.9731682z" />
+      </svg></a>
+    </div>
+   </footer>
+  </div> 
+  <div class="fix-menu-wrap visible-xs"> 
+   <div class="fix-menu-list"> 
+    <div class="menu-list-item"> <a href="https://coconuts.co"> 
+      <div class="svg-holder-icon"> 
+       <img src="/wp-content/themes/genesis-coconuts/assets/images/icon-img.svg" alt="Latest"> 
+      </div> 
+      <div class="menu-label">
+       Home
+      </div> </a> 
+    </div> 
+    <div class="menu-list-item"> <a href="https://coconuts.co/most-popular/"> 
+      <div class="svg-holder-icon text-center"> <i class="fa fa-rocket"></i> 
+      </div> 
+      <div class="menu-label">
+       Popular
+      </div> </a> 
+    </div> 
+    <div class="menu-list-item"> <a href="https://coconuts.co/newsletter/"> 
+      <div class="svg-holder-icon"> 
+       <img src="/wp-content/themes/genesis-coconuts/assets/images/envelop.svg" alt="Latest"> 
+      </div> 
+      <div class="menu-label">
+       Newsletters
+      </div> </a> 
+    </div> 
+   </div> 
+  </div> <!-- Google Tag Manager (noscript) --> 
+  <noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4JTNJ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> <!-- End Google Tag Manager (noscript) --> <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --> 
+  <script src="/wp-content/themes/genesis-coconuts/assets/js/basictabs.js"></script> 
+  <script>
+		var qq=jQuery.noConflict();
+	qq(document).ready(function(){
+		qq(".accord-container").hide(); 
+		qq("h4.accordLink").click(function(){
+			var thisBlock = qq(this).parent().index('.accord-block');
+			qq(".accord-block").find(".active").not(qq(this)).removeClass("active");
+			qq(this).toggleClass("active").next().fadeToggle();
+			qq(this).parent().toggleClass("activeToggle").siblings()
+	.removeClass("activeToggle").children(".accord-container").hide();
+			return false;
+			});
+		});
+	</script> 
+  <script type="text/javascript">
+		var xx=jQuery.noConflict();
+		xx(document).ready(function(){
+			xx('.coco-tabs').basicTabs();
+		});
+	</script> <!-- Start of Async HubSpot Analytics Code --> 
+  <script type="text/javascript">
+(function(d,s,i,r) {
+if (d.getElementById(i)){return;}
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/7833836.js';
+e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script> <!-- End of Async HubSpot Analytics Code --> 
+  <script type="text/javascript" src="https://apis.google.com/js/platform.js" id="coconuts-theme-platform-google-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/coconuts-custom-functions/includes/assets/js/lib.js" id="coconuts-theme-custom-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/coconuts-custom-functions/includes/assets/js/script.js?v=1.133" id="coconuts-theme-script-js"></script> 
+  <script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/coconuts.co\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.2" id="contact-form-7-js"></script> 
+  <script type="text/javascript" id="stripe-handler-ng-js-extra">
+/* <![CDATA[ */
+var wpASPNG = {"iframeUrl":"https:\/\/coconuts.co\/asp-payment-box\/","ppSlug":"asp-payment-box","prefetch":"0","ckey":"dbff5231581e9f46f00967bdc501a7f7"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/stripe-payments/public/assets/js/stripe-handler-ng.js?ver=2.0.47" id="stripe-handler-ng-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/themes/genesis-coconuts/assets/js/global-min.js?ver=1633106145" id="ea-global-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/themes/genesis-coconuts/assets/js/slick.min.js?ver=1.8.1" id="coconut-slick-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.3.5" id="skip-links-js"></script> 
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js?ver=2.3" id="1633106144-match-height-js"></script> 
+  <script type="text/javascript" id="ubermenu-js-extra">
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","submenu_indicator_close_mobile":"on","collapse_after_scroll":"on","v":"3.7.4","configurations":["main"],"ajax_url":"https:\/\/coconuts.co\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/coconuts.co\/wp-content\/plugins\/ubermenu\/","disable_mobile":"off","prefix_boost":"","use_core_svgs":"off","aria_role_navigation":"off","aria_nav_label":"off","aria_expanded":"off","aria_hidden":"off","aria_controls":"","aria_responsive_toggle":"off","icon_tag":"i","esc_close_mobile":"on","theme_locations":{"primary":"Primary Navigation Menu","secondary":"Secondary Navigation Menu"}};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js?ver=3.7.4" id="ubermenu-js"></script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-includes/js/wp-embed.min.js?ver=5.8.1" id="wp-embed-js"></script> 
+  <script type="text/javascript" id="upme_custom-js-extra">
+/* <![CDATA[ */
+var UPMECustom = {"ViewProfile":"View Profile","EditProfile":"Edit Profile","UPMEUrl":"https:\/\/coconuts.co\/wp-content\/plugins\/upme\/","ForgotPass":"Forgot Password","Login":"Login","Messages":{"EnterDetails":"Please enter your username or email to reset password.","EnterEmail":"Please enter your email address.","ValidEmail":"Please enter valid username or email address.","NotAllowed":"Password changes are not allowed for this user.","EmailError":"We are unable to deliver email to your email address. Please contact site admin.","PasswordSent":"We have sent a password reset link to your email address.","WentWrong":"Something went wrong, please try again","RegExistEmail":"Email is already registered.","RegValidEmail":"Email is available","RegInvalidEmail":"Invalid email.","RegEmptyEmail":"Email is empty.","RegExistUsername":"Username is already registered.","RegValidUsername":"Username is available.","RegEmptyUsername":"Username is empty.","RegInValidUsername":"Invalid username.","DelPromptMessage":"Are you sure you want to delete this image?"},"AdminAjax":"https:\/\/coconuts.co\/wp-admin\/admin-ajax.php","RegFormTitleUsername":"1","confirmDeleteProfile":"Do you want to delete the profile"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://coconuts.co/wp-content/plugins/upme/js/upme-custom.js?ver=5.8.1" id="upme_custom-js"></script> 
+ </body>
+</html>
