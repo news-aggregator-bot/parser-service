@@ -66,10 +66,10 @@ public class ParsedNewsApprover {
                     String path = wireMockServer.getPath(sourcePage.getUrl());
                     wireMockServer.stub(path, webPageContent);
                     ParsedNews parsedNews = parser.parse(sourcePage);
-//                    if (parsedNews.getArticles().size() == 0) {
-//                        throw new IllegalStateException("Single note on the whole page? " + sourcePage
-//                            .getUrl());
-//                    }
+                    if (parsedNews.getArticles().size() == 0) {
+                        throw new IllegalStateException("Single note on the whole page? " + sourcePage
+                            .getUrl());
+                    }
                     wireMockServer.stubVerify(path);
 
                     newsContext.approve(

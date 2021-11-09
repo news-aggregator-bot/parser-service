@@ -1,0 +1,81 @@
+version: 2.1
+workflows:
+  build:
+    jobs:
+      - trigger-build:
+          context: DEPLOY
+      - master-push:
+          filters:
+            branches:
+              only: master
+          context: DEPLOY
+          requires:
+            - trigger-build
+      - master-deploy:
+          filters:
+            branches:
+              only: master
+          context: DEPLOY
+          requires:
+            - master-push
+jobs:
+  trigger-build:
+    working_directory: ~/parser-service
+    docker:
+      - image: circleci/openjdk:11.0.8
+    steps:
+      - setup_remote_docker
+      - checkout # check out source code to working directory
+
+      - restore_cache:
+          keys:
+            - parser-service-{{ checksum "pom.xml" }}
+
+      - run: mvn -s .circleci/settings.xml dependency:go-offline package # gets the project dependencies
+
+      - save_cache: # saves the project dependencies
+          paths:
+            - ~/.m2
+          key: parser-service-{{ checksum "pom.xml" }}
+
+  master-push:
+    docker:
+      - image: circleci/openjdk:11.0.8
+    steps:
+      - setup_remote_docker
+      - checkout # check out source code to working directory
+      - restore_cache:
+          keys:
+            - parser-service-{{ checksum "pom.xml" }}
+      - run: mvn -s .circleci/settings.xml dependency:go-offline package
+      - run:
+          name: docker login
+          command:
+            echo "$GITHUB_TOKEN" | docker login ghcr.io -u $GITHUB_USER --password-stdin
+
+      - run:
+          name: docker-compose
+          command: |
+            set -x
+            docker network create picky
+            docker-compose --project-name na -f docker-compose.yml -f docker-compose.dev.yml up --build --no-start parser-service
+
+      - run:
+          name: docker push
+          command: docker push ghcr.io/news-aggregator-bot/picky.parser-service:latest
+
+  master-deploy:
+    docker:
+      - image: circleci/openjdk:11.0.8
+    steps: # a collection of executable commands
+      - setup_remote_docker
+      - add_ssh_keys
+      - checkout # check out source code to working directory
+
+      - run:
+          name: create ssh config
+          command: ./scripts/send-env-config.sh
+
+      - deploy:
+          name: deploy image to remote
+          command: ./scripts/deploy.sh
