@@ -18,6 +18,7 @@ workflows:
           context: DEPLOY
           requires:
             - master-push
+machine: true
 jobs:
   trigger-build:
     working_directory: ~/parser-service
@@ -31,11 +32,6 @@ jobs:
       - restore_cache:
           keys:
             - parser-service-{{ checksum "pom.xml" }}
-      - run:
-          name: Add na-ts
-          command: |
-            sudo tee -a /etc/hosts \<<<'127.0.0.1 na-ts'
-            cat /etc/hosts
 
       - run: mvn -s .circleci/settings.xml dependency:go-offline package # gets the project dependencies
 
