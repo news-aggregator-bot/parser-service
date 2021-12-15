@@ -11,7 +11,6 @@ import picky.parser.service.JsoupEvaluatorFactory;
 import picky.parser.service.UrlNormalisationService;
 import picky.parser.service.UtilObjectMapper;
 import picky.parser.service.doc.DocumentTagParser;
-import picky.parser.service.doc.MainLinkTitleDocumentTagParser;
 import picky.parser.service.doc.OnlyLinkDocumentTagParser;
 import picky.parser.service.doc.OnlyTitleDocumentTagParser;
 import picky.parser.service.doc.TitleLinkDocumentTagParser;
@@ -37,8 +36,7 @@ public class ParsedNewsApprover {
         new OnlyLinkDocumentTagParser(evalFactory),
         new OnlyTitleDocumentTagParser(evalFactory),
         new TitleLinkDocumentTagParser(evalFactory),
-        new TitleLinkNextToTagDocumentTagParser(evalFactory),
-        new MainLinkTitleDocumentTagParser(evalFactory)
+        new TitleLinkNextToTagDocumentTagParser(evalFactory)
     );
 
     private static final DefaultWebContentParser parser = new DefaultWebContentParser(
@@ -56,17 +54,17 @@ public class ParsedNewsApprover {
         WireMockSupport wireMockServer = new WireMockSupport(){};
         WireMockSupport.startWireMock();
         try {
-            for (String sourceName : sourcePageContext.getKeys()) {
-                Set<String> sourcePages = sourcePageContext.getValueKeys(sourceName);
-                for (String sourcePageName : sourcePages) {
-                    byte[] sourcePageContent = sourcePageContext.get(sourceName, sourcePageName);
-                    byte[] webPageContent = webPageContext.get(sourceName, sourcePageName);
+            for (String sourceName : webPageContext.getKeys()) {
+                Set<String> webPages = webPageContext.getValueKeys(sourceName);
+                for (String webPageName : webPages) {
+                    byte[] sourcePageContent = sourcePageContext.get(sourceName, webPageName);
+                    byte[] webPageContent = webPageContext.get(sourceName, webPageName);
 
                     SourcePage sourcePage = om.read(sourcePageContent, SourcePage.class);
                     String originalUrl = sourcePage.getUrl();
                     sourcePage.setUrl(wireMockServer.replaceHost(sourcePage.getUrl()));
                     if (newsContext.exists(sourceName, originalUrl)) {
-                        log.info("news approve skip {}/{}", sourceName, sourcePageName);
+                        log.info("news approve skip {}/{}", sourceName, webPageName);
                         continue;
                     }
 

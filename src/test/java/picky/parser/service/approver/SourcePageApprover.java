@@ -23,7 +23,7 @@ public class SourcePageApprover {
         List<TestSource> testSources = om.readTestSources(sources);
         log.info("converted sources");
         testSources.parallelStream()
-            .filter(TestSource::isEnabled)
+            .filter(TestSource::isActive)
             .forEach(testSource -> {
 
                 log.info("read source {} pages", testSource.getName());
@@ -55,7 +55,7 @@ public class SourcePageApprover {
             return Jsoup.connect("http://localhost:8081/god" + url)
                 .header("Content-Type", "application/json")
                 .ignoreContentType(true)
-                .timeout(5000)
+                .timeout(15000)
                 .get()
                 .text();
         } catch (IOException e) {
