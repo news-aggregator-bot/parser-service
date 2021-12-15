@@ -23,6 +23,7 @@ public class SourcePageApprover {
         List<TestSource> testSources = om.readTestSources(sources);
         log.info("converted sources");
         testSources.parallelStream()
+            .filter(TestSource::isEnabled)
             .forEach(testSource -> {
 
                 log.info("read source {} pages", testSource.getName());
@@ -33,6 +34,7 @@ public class SourcePageApprover {
                 List<SourcePage> sourcePages = om.readSourcePages(pagesJson);
                 log.info("got {} source {} pages", sourcePages.size(), testSource.getName());
                 sourcePages.parallelStream()
+                    .filter(SourcePage::isEnabled)
                     .forEach(sourcePage -> {
                         if (pageContentContext.exists(testSource.getName(), sourcePage.getUrl())) {
                             return;

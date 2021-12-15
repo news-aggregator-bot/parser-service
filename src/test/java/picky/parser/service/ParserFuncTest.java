@@ -1,6 +1,5 @@
 package picky.parser.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.tuple.Pair;
 import org.junit.jupiter.api.Disabled;
@@ -16,7 +15,6 @@ import picky.parser.service.mismatch.ResultMismatchAnalyzer;
 import picky.test.NatsContainerSupport;
 import picky.test.WireMockSupport;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
@@ -34,17 +32,15 @@ public class ParserFuncTest extends WireMockSupport implements NatsContainerSupp
     private static final String SOURCE_MISMATCH_PATTERN = "Source: %s\n%s";
     private static final String SOURCEPAGE_MISMATCH_PATTERN = "Source page: %s\n%s";
 
-    @Autowired
-    private ObjectMapper om;
+    private UtilObjectMapper om = new UtilObjectMapper();
 
     @Autowired
     private DefaultWebContentParser parser;
 
-    private FuncContext pageContext = new FuncContext(FuncContext.ContextType.WEB_PAGE);
-
-    private FuncContext newsContext = new FuncContext(FuncContext.ContextType.NEWS);
-
-    private ResultMismatchAnalyzer mismatchAnalyzer = new ResultMismatchAnalyzer();
+    private final FuncContext pageContext = new FuncContext(FuncContext.ContextType.WEB_PAGE);
+    private final FuncContext sourcePageContext = new FuncContext(FuncContext.ContextType.SOURCE_PAGE);
+    private final FuncContext newsContext = new FuncContext(FuncContext.ContextType.NEWS);
+    private final ResultMismatchAnalyzer mismatchAnalyzer = new ResultMismatchAnalyzer();
 
     @Test
     public void funcTest() {
@@ -69,7 +65,6 @@ public class ParserFuncTest extends WireMockSupport implements NatsContainerSupp
         List<Pair<SourcePage, List<Mismatch>>> sourcePagesMismatches = sourcePageNames
             .stream()
             .map(sourcePageName -> analyseSourcePage(sourceName, sourcePageName))
-            .filter(Objects::nonNull)
             .filter(p -> !p.getValue().isEmpty())
             .collect(Collectors.toList());
         log.info("func:source:finish:{}", sourceName);
@@ -78,33 +73,32 @@ public class ParserFuncTest extends WireMockSupport implements NatsContainerSupp
 
     private Pair<SourcePage, List<Mismatch>> analyseSourcePage(String sourceName, String sourcePageName) {
         SourcePage sourcePage = readSourcePage(sourceName, sourcePageName);
-        log.info("func:sourcepage:start:{}", sourcePage.getUrl());
+        String originalUrl = sourcePage.getUrl();
+        log.info("func:sourcepage:start:{}", originalUrl);
         assertFalse(sourcePage.getContentBlocks().isEmpty());
 
+        sourcePage.setUrl(replaceHost(sourcePage.getUrl()));
+        String path = getPath(sourcePage.getUrl());
+        stub(path, pageContext.get(sourceName, sourcePageName));
         ParsedNews expectedNews = readParsedNews(sourceName, sourcePageName);
-        ParsedNews actuaNews = parser.parse(sourcePage);
+        ParsedNews actualNews = parser.parse(sourcePage);
+        stubVerify(path);
 
-        List<Mismatch> mismatches = mismatchAnalyzer.analyse(expectedNews, actuaNews);
-        log.info("func:sourcepage:finish:{}", sourcePage.getUrl());
+        List<Mismatch> mismatches = mismatchAnalyzer.analyse(expectedNews, actualNews);
+        log.info("func:sourcepage:finish:{}", originalUrl);
         return Pair.of(sourcePage, mismatches);
     }
 
     private SourcePage readSourcePage(String sourceName, String sourcePageName){
-        try {
-            byte[] pageContent = pageContext.get(sourceName.toLowerCase(), sourcePageName);
-            return om.readValue(pageContent, SourcePage.class);
-        } catch (IOException e) {
-            throw new IllegalStateException("cannot read page " + sourcePageName);
-        }
+        return om.read(
+            sourcePageContext.get(sourceName.toLowerCase(), sourcePageName),
+            SourcePage.class
+        );
     }
 
     private ParsedNews readParsedNews(String sourceName, String sourcePageName){
-        try {
-            byte[] pageContent = newsContext.get(sourceName.toLowerCase(), sourcePageName);
-            return om.readValue(pageContent, ParsedNews.class);
-        } catch (IOException e) {
-            throw new IllegalStateException("cannot read page " + sourcePageName);
-        }
+        byte[] pageContent = newsContext.get(sourceName.toLowerCase(), sourcePageName);
+        return om.read(pageContent, ParsedNews.class);
     }
 
     private String buildErrMsg(List<Pair<String, List<Pair<SourcePage, List<Mismatch>>>>> sourceMismatches) {

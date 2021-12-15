@@ -18,6 +18,16 @@ import static picky.parser.dto.UrlNormalisation.NO_PARAMS;
 @Component
 public class UrlNormalisationService {
 
+    private final Map<UrlNormalisation, BiFunction<String, Element, String>> urlNormalisationContext =
+        ImmutableMap.<UrlNormalisation, BiFunction<String, Element, String>>builder()
+            .put(ASIS, (u, a) -> normaliseHref(u, getHref(a)))
+            .put(NO_PARAMS, (u, a) -> normaliseHref(u, cutHref(a)))
+            .build();
+
+    public String normaliseUrl(SourcePage sourcePage, Element a) {
+        return urlNormalisationContext.get(sourcePage.getUrlNormalisation()).apply(sourcePage.getUrl(), a);
+    }
+
     private String getHref(Element a) {
         return a.attr("href");
     }
@@ -31,7 +41,7 @@ public class UrlNormalisationService {
     }
 
     private String normaliseHref(String pageUrl, String href) {
-        if (href.startsWith("http")) {
+        if (StringUtils.isBlank(href) || href.startsWith("http")) {
             return href;
         }
         try {
@@ -40,16 +50,6 @@ public class UrlNormalisationService {
         } catch (MalformedURLException e) {
             throw new IllegalArgumentException(e);
         }
-    }
-
-    private final Map<UrlNormalisation, BiFunction<String, Element, String>> urlNormalisationContext =
-        ImmutableMap.<UrlNormalisation, BiFunction<String, Element, String>>builder()
-            .put(ASIS, (u, a) -> normaliseHref(u, getHref(a)))
-            .put(NO_PARAMS, (u, a) -> normaliseHref(u, cutHref(a)))
-            .build();
-
-    public String normaliseUrl(SourcePage sourcePage, Element a) {
-        return urlNormalisationContext.get(sourcePage.getUrlNormalisation()).apply(sourcePage.getUrl(), a);
     }
 
 }

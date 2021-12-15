@@ -3,16 +3,18 @@ package picky.parser.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Set;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class ParsedNews {
-    private final Set<ParsedNewsArticle> articles;
+    private Set<ParsedNewsArticle> articles;
 
-    private final String url;
+    private String url;
 
     @JsonProperty("web_reader")
-    private final String webReader;
+    private String webReader;
 }

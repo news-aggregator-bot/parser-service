@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class HtmlUnitWebPageReaderTest {
 
-    private WebPageReader reader = new HtmlUnitWebPageReader();
+    private WebPageReader reader = new HtmlUnitWebPageReader(1);
 
     @Test
     public void name_BROWSER() {

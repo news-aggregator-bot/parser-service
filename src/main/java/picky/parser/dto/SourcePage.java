@@ -27,4 +27,6 @@ public class SourcePage {
     @JsonProperty("content_blocks")
     private Set<ContentBlock> contentBlocks;
 
+    private boolean enabled;
+
 }

@@ -4,7 +4,6 @@ import picky.parser.dto.ContentBlock;
 import picky.parser.dto.ContentTag;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Evaluator;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import picky.parser.service.JsoupEvaluatorFactory;
 

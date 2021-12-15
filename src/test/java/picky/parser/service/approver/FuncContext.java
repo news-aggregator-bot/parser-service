@@ -1,6 +1,8 @@
 package picky.parser.service.approver;
 
 import com.google.common.collect.ImmutableMap;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import org.apache.commons.io.FilenameUtils;
 
 import java.io.File;
@@ -92,7 +94,7 @@ public class FuncContext {
             Path sourcePageDir = Files.createDirectories(
                 getResourcesDir().resolve(sourceName.toLowerCase())
             );
-            return sourcePageDir.resolve(sourcePageName);
+            return sourcePageDir.resolve(sourcePageName + type.extension);
         } catch (IOException e) {
             throw new IllegalStateException(e);
         }
@@ -107,8 +109,11 @@ public class FuncContext {
         return rootDir.resolve("src/test/resources").resolve(type.path);
     }
 
+    @AllArgsConstructor
     public enum ContextType {
-        SOURCE_PAGE, WEB_PAGE, NEWS;
+        SOURCE_PAGE(".json"), WEB_PAGE(".html"), NEWS(".json");
+
+        private final String extension;
         private final String path = this.name().toLowerCase(Locale.ROOT);
     }
 

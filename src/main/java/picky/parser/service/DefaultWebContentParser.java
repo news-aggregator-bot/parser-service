@@ -17,6 +17,7 @@ import picky.parser.service.doc.DocumentTagParser;
 
 import javax.annotation.PostConstruct;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -133,7 +134,6 @@ public class DefaultWebContentParser implements WebContentParser {
 
             Builder<ParsedNewsArticle> datas = ImmutableList.builder();
             for (Element main : mainClassElems) {
-
 
                 tagParsers.stream()
                     .filter(tp -> tp.matches(block))

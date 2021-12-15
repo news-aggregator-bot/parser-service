@@ -23,11 +23,9 @@ import java.nio.charset.StandardCharsets;
 public class HtmlUnitWebPageReader implements WebPageReader {
 
     private final WebClient client;
+    private final int timeout;
 
-    @Value("${read.timeout}")
-    private int timeout;
-
-    public HtmlUnitWebPageReader() {
+    public HtmlUnitWebPageReader(@Value("${read.timeout}") int timeout) {
         client = new WebClient();
         client.setJavaScriptTimeout(timeout * 1000L);
         client.getOptions().setThrowExceptionOnScriptError(false);
@@ -41,6 +39,7 @@ public class HtmlUnitWebPageReader implements WebPageReader {
         client.setAjaxController(new NicelyResynchronizingAjaxController());
         client.waitForBackgroundJavaScriptStartingBefore(200);
         client.waitForBackgroundJavaScript(10000);
+        this.timeout = timeout;
     }
 
     @Override

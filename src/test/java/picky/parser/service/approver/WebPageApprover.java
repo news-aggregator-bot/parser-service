@@ -26,7 +26,7 @@ public class WebPageApprover {
     private static final UtilObjectMapper om = new UtilObjectMapper();
     private static final List<WebPageReader> webPageReaders = List.of(
         new JsoupWebPageReader(),
-        new HtmlUnitWebPageReader()
+        new HtmlUnitWebPageReader(30)
     );
 
     private static final List<DocumentTagParser> tagParsers = List.of(

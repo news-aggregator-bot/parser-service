@@ -11,6 +11,7 @@ import picky.parser.service.JsoupEvaluatorFactory;
 import picky.parser.service.UrlNormalisationService;
 import picky.parser.service.UtilObjectMapper;
 import picky.parser.service.doc.DocumentTagParser;
+import picky.parser.service.doc.MainLinkTitleDocumentTagParser;
 import picky.parser.service.doc.OnlyLinkDocumentTagParser;
 import picky.parser.service.doc.OnlyTitleDocumentTagParser;
 import picky.parser.service.doc.TitleLinkDocumentTagParser;
@@ -29,14 +30,15 @@ public class ParsedNewsApprover {
 
     private static final List<WebPageReader> webPageReaders = List.of(
         new JsoupWebPageReader(),
-        new HtmlUnitWebPageReader()
+        new HtmlUnitWebPageReader(10)
     );
 
     private static final List<DocumentTagParser> tagParsers = List.of(
         new OnlyLinkDocumentTagParser(evalFactory),
         new OnlyTitleDocumentTagParser(evalFactory),
         new TitleLinkDocumentTagParser(evalFactory),
-        new TitleLinkNextToTagDocumentTagParser(evalFactory)
+        new TitleLinkNextToTagDocumentTagParser(evalFactory),
+        new MainLinkTitleDocumentTagParser(evalFactory)
     );
 
     private static final DefaultWebContentParser parser = new DefaultWebContentParser(
@@ -61,24 +63,28 @@ public class ParsedNewsApprover {
                     byte[] webPageContent = webPageContext.get(sourceName, sourcePageName);
 
                     SourcePage sourcePage = om.read(sourcePageContent, SourcePage.class);
+                    String originalUrl = sourcePage.getUrl();
                     sourcePage.setUrl(wireMockServer.replaceHost(sourcePage.getUrl()));
+                    if (newsContext.exists(sourceName, originalUrl)) {
+                        log.info("news approve skip {}/{}", sourceName, sourcePageName);
+                        continue;
+                    }
 
                     String path = wireMockServer.getPath(sourcePage.getUrl());
                     wireMockServer.stub(path, webPageContent);
                     ParsedNews parsedNews = parser.parse(sourcePage);
                     if (parsedNews.getArticles().size() == 0) {
-                        throw new IllegalStateException("Single note on the whole page? " + sourcePage
-                            .getUrl());
+                        throw new IllegalStateException("Single note on the whole page? " + originalUrl);
                     }
                     wireMockServer.stubVerify(path);
 
                     newsContext.approve(
                         sourceName,
-                        sourcePage.getUrl(),
+                        originalUrl,
                         om.writeString(parsedNews)
                     );
 
-                    log.info("parsed news approve completed {} {}", parsedNews.getArticles().size(), sourcePage.getUrl());
+                    log.info("parsed news approve completed {} {}", parsedNews.getArticles().size(), originalUrl);
                 }
             }
         } finally {

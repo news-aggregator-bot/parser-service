@@ -45,3 +45,5 @@ subject:
   parse: parse
 read:
   timeout: 30
+nats:
+  address: 'na-ts:4222'
