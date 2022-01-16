@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableList;
 import picky.parser.dto.ParsedNews;
 import picky.parser.dto.ParsedNewsArticle;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
@@ -44,28 +45,36 @@ public class ResultMismatchAnalyzer {
             return Collections.emptyList();
         }
 
-        Map<String, ParsedNewsArticle> expectedMap = expected.stream()
-            .collect(Collectors.toMap(ParsedNewsArticle::getLink, Function.identity()));
-        Map<String, ParsedNewsArticle> actualMap = actual.stream()
-            .collect(Collectors.toMap(ParsedNewsArticle::getLink, Function.identity()));
+        Map<String, List<ParsedNewsArticle>> expectedMap = expected.stream()
+            .collect(Collectors.groupingBy(ParsedNewsArticle::getLink));
+        Map<String, List<ParsedNewsArticle>> actualMap = actual.stream()
+            .collect(Collectors.groupingBy(ParsedNewsArticle::getLink));
 
         return expectedMap.entrySet()
             .stream()
-            .map(e -> compare(e.getValue(), actualMap.get(e.getKey())))
+            .flatMap(e -> compare(e.getValue(), actualMap.get(e.getKey())).stream())
             .filter(Objects::nonNull)
             .collect(Collectors.toList());
     }
 
-    private Mismatch compare(ParsedNewsArticle expectedNote, ParsedNewsArticle actualNote) {
-        List<String> mismatchMessages = findMismatches(expectedNote, actualNote);
-        if (mismatchMessages.isEmpty()) {
-            return null;
+    private List<Mismatch> compare(
+        List<ParsedNewsArticle> expectedArticles, List<ParsedNewsArticle> actualArticles
+    ) {
+        List<Mismatch> articlesMismatches = new ArrayList<>();
+        for (int i = 0; i < expectedArticles.size(); i++) {
+            ParsedNewsArticle expectedArticle = expectedArticles.get(i);
+            ParsedNewsArticle actualArticle = actualArticles != null ? actualArticles.get(i) : null;
+            List<String> mismatchMessages = findMismatches(expectedArticle, actualArticle);
+            if (!mismatchMessages.isEmpty()) {
+                Mismatch mismatch = Mismatch.builder()
+                    .expected(expectedArticle)
+                    .actual(actualArticle)
+                    .messages(mismatchMessages)
+                    .build();
+                articlesMismatches.add(mismatch);
+            }
         }
-        return Mismatch.builder()
-            .expected(expectedNote)
-            .actual(actualNote)
-            .messages(mismatchMessages)
-            .build();
+        return articlesMismatches;
     }
 
     private List<String> findMismatches(ParsedNewsArticle expectedNote, ParsedNewsArticle actualNote) {

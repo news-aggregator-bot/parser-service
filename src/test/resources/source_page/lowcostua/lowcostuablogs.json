@@ -1,0 +1,1 @@
+{"url":"https://lowcost.ua/blogs","enabled":true,"url_normalisation":"ASIS","content_blocks":[{"sourcePage":null,"tags":[{"type":"LINK","value":"a","match_strategy":"HTML_TAG"},{"type":"TITLE","value":"span","match_strategy":"HTML_TAG"},{"type":"MAIN","value":"entry-title","match_strategy":"EQUALS"}],"typeMap":null}]}

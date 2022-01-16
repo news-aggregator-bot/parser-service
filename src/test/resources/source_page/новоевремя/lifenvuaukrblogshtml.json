@@ -1,0 +1,1 @@
+{"url":"https://life.nv.ua/ukr/blogs.html","enabled":true,"url_normalisation":"ASIS","content_blocks":[{"sourcePage":null,"tags":[{"type":"MAIN","value":"atom-wrapper","match_strategy":"STARTS"},{"type":"TITLE","value":"text","match_strategy":"EQUALS"},{"type":"LINK","value":"a","match_strategy":"HTML_TAG"}],"typeMap":null}]}

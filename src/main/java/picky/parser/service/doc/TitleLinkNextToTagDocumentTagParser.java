@@ -40,6 +40,9 @@ public class TitleLinkNextToTagDocumentTagParser implements DocumentTagParser {
             return Optional.empty();
         }
         Element linkEl = getLinkEl(linkWrapperEl);
+        if (linkEl == null) {
+            return Optional.empty();
+        }
         String link = href.apply(linkEl);
         if (StringUtils.isBlank(link)) {
             return Optional.empty();

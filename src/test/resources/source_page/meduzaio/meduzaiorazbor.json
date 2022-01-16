@@ -1,0 +1,1 @@
+{"url":"https://meduza.io/razbor","enabled":true,"url_normalisation":"ASIS","content_blocks":[{"sourcePage":null,"tags":[{"type":"LINK","value":"a","match_strategy":"HTML_TAG"},{"type":"MAIN","value":"RichBlock-title","match_strategy":"EQUALS"},{"type":"TITLE","value":"div","match_strategy":"HTML_TAG"}],"typeMap":null}]}
